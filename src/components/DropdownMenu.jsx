@@ -17,16 +17,16 @@ const DropdownMenu = ({ name, items }) => {
         onMouseLeave={closeDropdown}
       >
           <button
-            className="font-display text-white-700 hover:text-black-300"
+            className="font-display text-base text-white-700 hover:text-black-300"
           >
             { name }
           </button>
         
   
         {isOpen && items.length > 0 && (
-          <ul className="p-1 justify-center text-center font-display">
+          <ul className="justify-center p-1 text-center font-display">
             {items.map((item, index) => (
-                <li key={index} className="text-center p-1 hover:text-black">
+                <li key={index} className="text-center text-sm p-1 hover:text-black">
                     {item}
                 </li>
             ))}

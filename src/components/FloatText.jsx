@@ -3,7 +3,7 @@ import React from 'react'
 const FloatText = () => {
   return (
     <div>
-        <h1 className='absolute flex items-center justify-center whitespace-normal'>
+        <h1 className='absolute flex items-center whitespace-normal'>
             Transforming architects’ 
             vision into the future 
             of eco-sustainable 

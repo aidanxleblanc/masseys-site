@@ -8,6 +8,7 @@ const HomePage = () => {
     <div>
       <Header />
       <Body />
+      <Footer />
     </div>
   )
 }

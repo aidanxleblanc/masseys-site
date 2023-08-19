@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       backgroundColor: {
         'navy': '#3A5471',
+        'dknavy': '#2B3D53'
       },
       textColor: {
         'navy': '#2B3D53',

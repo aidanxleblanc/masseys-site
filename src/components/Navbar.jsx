@@ -6,10 +6,10 @@ const Navbar = () => {
 
   return (
     <div className='flex justify-between w-full absolute top-0 text-white'>
-      <div className='flex pl-4'>
+      <div className='flex items-top p-5 w-1/6'>
         <Logo />
       </div>
-        <div className='flex pt-8'>
+        <div className='flex pt-6'>
             <DropdownMenu name="Projects" items={['Featured']}/>
             <DropdownMenu name="Who We Are" items={['Our Story', 'Meet the Team', 'News & Media']} />
             <DropdownMenu name="What We Do" items={['Sustainability']}/>
