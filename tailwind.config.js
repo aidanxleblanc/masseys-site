@@ -19,6 +19,11 @@ module.exports = {
       },
       textColor: {
         'navy': '#2B3D53',
+        'gold': '#F2CD52',
+      },
+      spacing: {
+        '28': '7rem',
+        '32': '8rem',
       }
     }
   },

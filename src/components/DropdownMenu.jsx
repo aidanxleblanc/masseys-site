@@ -12,7 +12,7 @@ const DropdownMenu = ({ name, items }) => {
     };
   
     return (
-        <div className="relative text-center overflow-visible w-40"
+      <div className="relative text-center overflow-visible w-40"
         onMouseEnter={openDropdown}
         onMouseLeave={closeDropdown}
       >
@@ -21,17 +21,25 @@ const DropdownMenu = ({ name, items }) => {
           >
             { name }
           </button>
-        
-  
+
+      <div
+        className={`transition-opacity duration-500 ${
+          isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        }`}
+      >
         {isOpen && items.length > 0 && (
           <ul className="justify-center p-1 text-center font-display">
             {items.map((item, index) => (
-                <li key={index} className="text-center text-sm p-1 hover:text-black">
+              <button>
+                <li key={index} className="text-center text-sm p-1 hover:text-gold
+                  transition-all duration-300 hover:text-base">
                     {item}
                 </li>
+              </button>
             ))}
           </ul>
         )}
+        </div>
       </div>
     );
   };
