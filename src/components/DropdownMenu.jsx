@@ -23,12 +23,12 @@ const DropdownMenu = ({ name, items }) => {
           </button>
 
       <div
-        className={`absolute transition-opacity duration-500 ${
+        className={`absolute w-full transition-opacity duration-500 ${
           isOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
         }`}
       >
         {isOpen && items.length > 0 && (
-          <ul className="w-auto flex flex-col justify-center p-1 text-center font-display">
+          <ul className="flex flex-col items-center p-1 font-display">
             {items.map((item, index) => (
               <button >
                 <li key={index}
