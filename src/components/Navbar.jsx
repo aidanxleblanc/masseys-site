@@ -15,7 +15,7 @@ const Navbar = ({absolute}) => {
       <div className='flex items-top p-5 w-1/6'>
         <Logo />
       </div>
-        <div className='flex pt-6'>
+        <div className='flex pt-6 text-center justify-center'>
             <DropdownMenu name="Projects" items={['Featured']}/>
             <DropdownMenu name="Who We Are" items={['Our Story', 'Meet the Team', 'News & Media']} />
             <DropdownMenu name="What We Do" items={['Sustainability']}/>

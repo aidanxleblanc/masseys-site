@@ -3,6 +3,7 @@ import Navbar from '../components/Navbar'
 import PageTitle from '../components/PageTitle'
 import ProjectSquare from '../components/ProjectSquare'
 import Footer from '../components/Footer'
+import Filter from '../components/Filter'
 
 const Projects = () => {
   return (
@@ -11,6 +12,9 @@ const Projects = () => {
         <Navbar absolute={false} />
       </div>
       <PageTitle title='Projects'/> 
+      <div>
+        <Filter />
+      </div>
       <div className='flex justify-center space-x-4 mt-4'>
         <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
           name='88 Seaport' loc='Boston, MA'/>
