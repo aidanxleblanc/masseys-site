@@ -1,9 +1,13 @@
 import React from 'react'
 
-const ProjectSquare = ({url}) => {
+const ProjectSquare = ({imageUrl, name, loc}) => {
   return (
-    <div>
-        <img src={require({url})} />
+    <div className='flex flex-col justify-end w-1/4 aspect-square bg-cover bg-center'
+      style= {{ backgroundImage: `url(${imageUrl})` }}>
+        <div className='p-3 h-20 items-center font-display text-white bg-dknavy bg-opacity-80'>
+          <span className='font-bold text-lg'>{name} </span><br />
+          <span className='italic text-base'>{loc}</span>
+        </div>
     </div>
   )
 }

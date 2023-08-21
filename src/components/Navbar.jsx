@@ -4,11 +4,11 @@ import Logo from './Logo';
 
 const Navbar = ({absolute}) => {
 
-  let navClassName = 'flex justify-between w-full top-0 text-white';
+  let navClassName = 'flex justify-between w-full top-0 text-navy';
 
   if (absolute) {
     navClassName += ' absolute';
-  } 
+  }
   
   return (
     <div className= {navClassName}>

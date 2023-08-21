@@ -6,8 +6,8 @@ import './App.css';
 function App() { 
   return (
     <>
-      <HomePage />
-      {/* <Projects /> */}
+      {/* <HomePage /> */}
+      <Projects />
     </>
   );
 }

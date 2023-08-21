@@ -7,6 +7,7 @@ module.exports = {
       archivo: ['Archivo', 'sans-serif']
     },
     fontWeight: {
+      thin: 300,
       regular: 400,
       medium: 500,
       semi: 600,
