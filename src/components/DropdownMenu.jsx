@@ -12,7 +12,7 @@ const DropdownMenu = ({ name, items }) => {
     };
   
     return (
-      <div className="relative text-center overflow-visible w-40"
+      <div className="relative text-center overflow-visible w-32"
         onMouseEnter={openDropdown}
         onMouseLeave={closeDropdown}
       >
