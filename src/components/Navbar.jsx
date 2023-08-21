@@ -16,7 +16,7 @@ const Navbar = ({absolute, color}) => {
       <div className='flex items-top p-6 w-1/7'>
         <Logo />
       </div>
-        <div className='flex pt-6 text-center justify-center'>
+        <div className='flex pt-8 text-center justify-center'>
             <DropdownMenu name="Projects" items={['Featured']}/>
             <DropdownMenu name="Who We Are" items={['Our Story', 'Meet the Team', 'News & Media']} />
             <DropdownMenu name="What We Do" items={['Sustainability']}/>
