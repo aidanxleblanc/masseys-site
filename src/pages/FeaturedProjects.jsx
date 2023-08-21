@@ -8,9 +8,8 @@ import Footer from '../components/Footer'
 
 const FeaturedProjects = () => {
   return (
-    
     <div className='flex flex-col'>
-        <Navbar />
+        <Navbar color='navy'/>
         <PageTitle title='Featured Projects' />
         <FeatProjLeft 
             imageUrl='/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylston.jpeg'
@@ -72,9 +71,7 @@ const FeaturedProjects = () => {
                     underground parking and exclusive, landscaped outdoor spaces.'
             />
         </div>
-        
         <Footer />
-
     </div>
   )
 }

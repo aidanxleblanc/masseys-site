@@ -2,11 +2,12 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import PageTitle from '../components/PageTitle'
 import ProjectSquare from '../components/ProjectSquare'
+import Footer from '../components/Footer'
 
 const IndividualProject = ({url, desc, name, city, state, year, type, arch, owner, contr}) => {
   return (
     <div className='font-display text-navy text-xl justify-center'>
-        <Navbar />
+        <Navbar color='navy'/>
         <PageTitle title={name}/>
         <div className='flex justify-center'>
             <div className='flex w-2/3'>
@@ -79,6 +80,10 @@ const IndividualProject = ({url, desc, name, city, state, year, type, arch, owne
                 loc=''
             />
         </div>
+        <div className='mt-4'>
+            <Footer /> 
+        </div>
+        
     </div>
   )
 }

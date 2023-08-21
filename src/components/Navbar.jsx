@@ -2,17 +2,18 @@ import React from 'react'
 import DropdownMenu from './DropdownMenu';
 import Logo from './Logo';
 
-const Navbar = ({absolute}) => {
+const Navbar = ({absolute, color}) => {
 
-  let navClassName = 'flex justify-between w-full top-0 text-navy';
+  let navClassName = 'flex justify-between w-full top-0 text-' + color;
+
 
   if (absolute) {
     navClassName += ' absolute';
   }
-  
+
   return (
     <div className= {navClassName}>
-      <div className='flex items-top p-5 w-1/6'>
+      <div className='flex items-top p-6 w-1/7'>
         <Logo />
       </div>
         <div className='flex pt-6 text-center justify-center'>

@@ -9,7 +9,7 @@ const Projects = () => {
   return (
     <div className='flex flex-col'>
       <div>
-        <Navbar absolute={false} />
+        <Navbar absolute={false} color='navy'/>
       </div>
       <PageTitle title='Projects'/> 
       <div>
@@ -42,7 +42,6 @@ const Projects = () => {
       <div className='mt-8'>
         <Footer />
       </div>
-      
     </div>
   )
 }

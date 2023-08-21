@@ -9,10 +9,10 @@ import { type } from '@testing-library/user-event/dist/type';
 function App() { 
   return (
     <>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <Projects /> */}
       {/* <FeaturedProjects /> */}
-      <IndividualProject 
+      {/* <IndividualProject 
         name='380 Stuart Street'
         city='Boston'
         state='Massachusetts'
@@ -25,7 +25,7 @@ function App() {
         642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
         amenities, integrated,  touchless building systems and enhanced health and well-being measures 
         tailored to meet your needs. '
-          />
+          /> */}
     </>
   );
 }
