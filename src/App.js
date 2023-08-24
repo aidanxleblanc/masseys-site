@@ -4,13 +4,16 @@ import Projects from "./pages/Projects";
 import './App.css';
 import FeaturedProjects from './pages/FeaturedProjects';
 import IndividualProject from './pages/IndividualProject';
-import { type } from '@testing-library/user-event/dist/type';
+import Careers from './pages/Careers';
+import MeetTheTeam from './pages/MeetTheTeam';
 
 function App() { 
   return (
     <>
-      <HomePage />
+      {/* <HomePage /> */}
       {/* <Projects /> */}
+      {/* <MeetTheTeam /> */}
+      <Careers />
       {/* <FeaturedProjects /> */}
       {/* <IndividualProject 
         name='380 Stuart Street'
@@ -25,7 +28,7 @@ function App() {
         642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
         amenities, integrated,  touchless building systems and enhanced health and well-being measures 
         tailored to meet your needs. '
-          /> */}
+        /> */}
     </>
   );
 }

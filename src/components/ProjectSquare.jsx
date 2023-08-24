@@ -1,6 +1,7 @@
 import React from 'react'
 
 const ProjectSquare = ({imageUrl, name, loc}) => {
+
   return (
     <div className='flex flex-col justify-end w-1/4 aspect-square bg-cover bg-center'
       style= {{ backgroundImage: `url(${imageUrl})` }}>
