@@ -13,7 +13,7 @@ const Navbar = ({absolute, color}) => {
 
   return (
     <div className = {navClassName}>
-      <div className='flex items-top p-6 w-1/6'>
+      <div className='flex items-top p-6 w-1/7'>
         <Logo />
       </div>
         <div className='flex pt-8 text-center justify-center'>

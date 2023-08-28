@@ -1,30 +1,42 @@
 import React from 'react'
 import TitleHeading from '../components/TitleHeading'
-import PositionBanner from '../components/PositionBanner'
+import PositionBannerRight from '../components/PositionBannerRight'
 import Footer from '../components/Footer'
+import PositionBannerLeft from '../components/PositionBannerLeft'
+import CrewBanner from '../components/CrewBanner'
 
 const Careers = () => {
   return (
     <div className='flex flex-col font-display text-navy'>
         <TitleHeading title='Careers'/>
-        <div className='flex justify-center pt-8 space-x-16'>
-          <div className='flex flex-col space-x-4 space-y-4 justify-center'>
-            <h1 className='font-semi text-3xl'>
-              At Massey's, we care about our crew.</h1>
-            <h1 className='text-lg'>
-              + We provide initial and subsequent job specific training <br />
-              + Benefits package includes heath benefits, 401(k), paid vacation & holidays <br />
-              + Salary commensurate with experience <br />
-              + We are an Affirmative Action/Equal Opportunity Employer. <br />
-            </h1>
-          </div>
-          <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/50yrs.png')} 
-             className='w-1/8 object-contain'/>
-        </div>  
+        <CrewBanner />
         <div className='text-center font-semi text-4xl pt-8'>
           <h1>Available Positions</h1>
         </div>
-        <PositionBanner />
+        <PositionBannerRight 
+        pos = 'Project Manager' 
+        desc = 'Our goal is to eliminate foreseeable hazards to maintain a safe and healthful
+        work environment for all employees. The core elements of our safety program
+        include management leadership, worker participation, hazard identification
+        and assessment, hazard prevention and control, communication training, and
+        program evaluation for continual improvement. Massey’s full time Safety Director
+        oversees every aspect of our field and fabrication operations for our glass and panel divisions.' />
+        <PositionBannerLeft 
+        pos = 'Project Estimator' 
+        desc = 'Our goal is to eliminate foreseeable hazards to maintain a safe and healthful work environment for all employees. The core elements of our safety program
+        include management leadership, worker participation, hazard identification
+        and assessment, hazard prevention and control, communication training, and
+        program evaluation for continual improvement. Massey’s full time Safety Director
+        oversees every aspect of our field and fabrication operations for our glass and panel divisions.'
+        url = '/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg' />
+        <PositionBannerRight 
+        pos = 'Project Manager' 
+        desc = 'Our goal is to eliminate foreseeable hazards to maintain a safe and healthful
+        work environment for all employees. The core elements of our safety program
+        include management leadership, worker participation, hazard identification
+        and assessment, hazard prevention and control, communication training, and
+        program evaluation for continual improvement. Massey’s full time Safety Director
+        oversees every aspect of our field and fabrication operations for our glass and panel divisions.' />
     </div>
 
   )
