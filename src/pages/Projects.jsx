@@ -6,6 +6,7 @@ import Footer from '../components/Footer'
 import Filter from '../components/Filter'
 
 const Projects = () => {
+
   return (
     <div className='flex flex-col'>
       <div>

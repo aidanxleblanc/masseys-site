@@ -33,7 +33,7 @@ function App() {
             <Route path='/what-we-do' element={<WhatWeDo />}/>
             <Route path='/who-we-are' element={<WhoWeAre />}/>
 
-            <Route path='/380-stuart-st' element={
+            <Route path='/380-stuart-street' element={
               <IndividualProject 
               name='380 Stuart Street'
               city='Boston'

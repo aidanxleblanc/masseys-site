@@ -13,7 +13,7 @@ const Navbar = ({absolute, color}) => {
 
   return (
     <div className = {navClassName}>
-      <div className='flex items-top p-6 w-1/7'>
+      <div className='flex items-top pl-10 pt-6 w-1/17'>
         <a href="/home">
           <Logo />
         </a>

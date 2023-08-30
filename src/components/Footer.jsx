@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <div className='items-center justify-center bg-dknavy'>
       <div className='flex justify-around'>
-        <div className='flex items-center p-5 w-1/7'>
+        <div className='flex items-center p-5 w-1/17'>
           <Logo />
         </div>
         <div className='flex w-1/2 text-white justify-between items-center'>
