@@ -1,20 +1,42 @@
 import React from 'react';
-import HomePage from "./pages/HomePage";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from "./pages/Home";
 import Projects from "./pages/Projects";
 import './App.css';
-import FeaturedProjects from './pages/FeaturedProjects';
+import Featured from './pages/Featured';
 import IndividualProject from './pages/IndividualProject';
 import Careers from './pages/Careers';
 import MeetTheTeam from './pages/MeetTheTeam';
+import Contact from './pages/Contact';
+import Sustainability from './pages/Sustainability';
+import WhoWeAre from './pages/WhoWeAre';
+import WhatWeDo from './pages/WhatWeDo';
+import OurStory from './pages/OurStory';
+import NewsMedia from './pages/NewsMedia';
 
 function App() { 
   return (
-    <>
-      <HomePage />
-      {/* <Projects /> */}
-      {/* <MeetTheTeam /> */}
-      {/* <Careers /> */}
-      {/* <FeaturedProjects /> */}
+      <div>
+        <BrowserRouter>
+          <Routes>
+            <Route index element={<Home />}/>
+            <Route path='*' element={<Home />}/>
+            <Route path='/careers' element={<Careers />}/>
+            <Route path='/contact' element={<Contact />}/>
+            <Route path='/featured' element={<Featured />}/>
+            <Route path='/home' element={<Home />}/>
+            <Route path='/meet-the-team' element={<MeetTheTeam />}/>
+            <Route path='/news-&-media' element={<NewsMedia />}/>
+            <Route path='/our-story' element={<OurStory />}/>
+            <Route path='/projects' element={<Projects />}/>
+            <Route path='/sustainability' element={<Sustainability />}/>
+            <Route path='/what-we-do' element={<WhatWeDo />}/>
+            <Route path='/who-we-are' element={<WhoWeAre />}/>
+          </Routes >
+        </BrowserRouter>
+      </div>
+  );
+
       {/* <IndividualProject 
         name='380 Stuart Street'
         city='Boston'
@@ -29,8 +51,6 @@ function App() {
         amenities, integrated,  touchless building systems and enhanced health and well-being measures 
         tailored to meet your needs. '
         /> */}
-    </>
-  );
 }
 
 export default App;

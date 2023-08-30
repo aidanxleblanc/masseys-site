@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const WhoWeAre = () => {
+const Contact = () => {
   return (
     <div>
         <Navbar />
@@ -9,4 +9,4 @@ const WhoWeAre = () => {
   )
 }
 
-export default WhoWeAre
+export default Contact

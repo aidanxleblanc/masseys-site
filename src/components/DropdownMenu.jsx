@@ -34,7 +34,9 @@ const DropdownMenu = ({ name, items }) => {
                 <li key={index}
                 className="text-center text-sm p-1 hover:text-gold
                   transition-all duration-300 hover:text-base">
-                    {item}
+                    <a href={`/${item.toLowerCase().replace(/ /g, '-')}`}>
+                      {item}
+                    </a>
                 </li>
               </button>
             ))}
