@@ -7,10 +7,11 @@ const Body = () => {
   return (
     <div>
       <div className='flex p-16'>
-        <div className='w-1/4'>
-          <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/google_crop.jpeg')} className='h-30 object-contain pr-8'/>
+        <div className='w-1/3'>
+          <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/google_crop.jpeg')} 
+          className='h-full pr-8'/>
         </div>
-        <div className='w-3/4'>
+        <div className='w-2/3'>
           <MainDesc />
         </div>
       </div>

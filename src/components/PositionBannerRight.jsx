@@ -11,8 +11,9 @@ const PositionBannerRight = ({pos, desc}) => {
             <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/projectmanager.jpeg")} 
             className='opacity-30 w-full h-full object-cover'/> 
         </div>
-        <div className='w-1/4'>
-            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/massgeneral.png")} /> 
+        <div className='w-1/4 h-1/4'>
+          <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/massgeneral.png")} 
+              className='w-full h-full object-cover'/> 
         </div>
     </div>
   )

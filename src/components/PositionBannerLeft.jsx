@@ -4,9 +4,10 @@ const PositionBannerRight = ({pos, desc}) => {
   return (
     <div className='flex justify-center space-x-8 mt-8'>
         <div className='w-1/4'>
-            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/massgeneral.png")} /> 
+            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg")} 
+            className='w-full h-full object-cover'/> 
         </div>
-        <div className='w-1/2 flex items-center bg-navy font-display text-white'>
+        <div className='w-1/2 flex text-right items-center bg-navy font-display text-white'>
             <div className='w-1/2 absolute px-16' style={{ zIndex: 1 }}>
                 <h1 className='font-bold text-6xl'> {pos} </h1>
                 <h1 className='mt-6 text-lg'> {desc} </h1> 

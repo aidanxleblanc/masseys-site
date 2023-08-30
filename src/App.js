@@ -10,10 +10,10 @@ import MeetTheTeam from './pages/MeetTheTeam';
 function App() { 
   return (
     <>
-      {/* <HomePage /> */}
+      <HomePage />
       {/* <Projects /> */}
       {/* <MeetTheTeam /> */}
-      <Careers />
+      {/* <Careers /> */}
       {/* <FeaturedProjects /> */}
       {/* <IndividualProject 
         name='380 Stuart Street'
