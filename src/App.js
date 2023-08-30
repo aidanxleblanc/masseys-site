@@ -32,25 +32,26 @@ function App() {
             <Route path='/sustainability' element={<Sustainability />}/>
             <Route path='/what-we-do' element={<WhatWeDo />}/>
             <Route path='/who-we-are' element={<WhoWeAre />}/>
+
+            <Route path='/380-stuart-st' element={
+              <IndividualProject 
+              name='380 Stuart Street'
+              city='Boston'
+              state='Massachusetts'
+              year='2017'
+              type='Office'
+              arch='CBT Architects'
+              owner='Turner'
+              contr='Contractor'
+              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
+              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
+              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
+              tailored to meet your needs. '
+              />}/>
           </Routes >
         </BrowserRouter>
       </div>
   );
-
-      {/* <IndividualProject 
-        name='380 Stuart Street'
-        city='Boston'
-        state='Massachusetts'
-        year='2017'
-        type='Office'
-        arch='CBT Architects'
-        owner='Turner'
-        contr='Contractor'
-        desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-        642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-        amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-        tailored to meet your needs. '
-        /> */}
 }
 
 export default App;

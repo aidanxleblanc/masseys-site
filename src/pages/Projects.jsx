@@ -13,7 +13,7 @@ const Projects = () => {
       </div>
       <PageTitle title='Projects'/> 
       <div>
-        <Filter />
+        {/* <Filter /> */}
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
         <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
