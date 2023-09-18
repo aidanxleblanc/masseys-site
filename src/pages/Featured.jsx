@@ -1,8 +1,6 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import PageTitle from '../components/PageTitle'
-import FeatProjLeft from '../components/FeatProjLeft'
-import FeatProjRight from '../components/FeatProjRight'
 import Footer from '../components/Footer'
 
 
@@ -13,14 +11,14 @@ const FeaturedProjects = () => {
             <Navbar color='navy'/>
             <PageTitle title='Featured Projects' />
 
-            <div className='flex font-display px-12 justify-center'>
-                <div className='image-container w-3/5 p-8'>
+            <div className='flex font-display px-12 justify-center pb-8'>
+                <div className='image-container w-3/5'>
                     <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylston copy.jpeg")} 
                     className='w-full h-full'/> 
                 </div>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
-                    <h1 className='font-semi text-4xl'>888 Boylston Street</h1>
-                    <h2 className='font-semi text-xl pt-5'>
+                    <h1 className='font-semi text-3xl'>888 Boylston Street</h1>
+                    <h2 className='font-semi text-lg pt-5'>
                         Boston’s Most Sustainable Building
                         <br />
                         Architect: <span className='font-regular'>FXCollaborative</span> <br />
@@ -37,7 +35,7 @@ const FeaturedProjects = () => {
                 </div>
             </div>
 
-            <div className='flex font-display px-12 justify-center text-right'>
+            <div className='flex font-display px-12 justify-center text-right pb-8'>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
                     <h1 className='font-semi text-4xl'>Pier 4</h1>
                     <h2 className='font-semi text-xl pt-5'>
@@ -55,14 +53,14 @@ const FeaturedProjects = () => {
                         underground parking and exclusive, landscaped outdoor spaces
                     </p>
                 </div>
-                <div className='image-container w-3/5 p-8'>
+                <div className='image-container w-3/5'>
                     <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_cropped.png")} 
                     className='w-full h-full'/> 
                 </div>
             </div>
 
-            <div className='flex font-display px-12 justify-center'>
-                <div className='image-container w-3/5 p-8'>
+            <div className='flex font-display px-12 justify-center pb-8'>
+                <div className='image-container w-3/5'>
                     <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/ragon.png")} 
                     className='w-full h-full'/> 
                 </div>
@@ -85,7 +83,7 @@ const FeaturedProjects = () => {
                 </div>
             </div>
 
-            <div className='flex font-display px-12 justify-center text-right'>
+            <div className='flex font-display px-12 justify-center text-right pb-8'>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
                     <h1 className='font-semi text-4xl'>Pier 4</h1>
                     <h2 className='font-semi text-xl pt-5'>
@@ -103,7 +101,7 @@ const FeaturedProjects = () => {
                         underground parking and exclusive, landscaped outdoor spaces
                     </p>
                 </div>
-                <div className='image-container w-3/5 p-8'>
+                <div className='image-container w-3/5'>
                     <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_cropped.png")} 
                     className='w-full h-full'/> 
                 </div>

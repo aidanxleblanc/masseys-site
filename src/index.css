@@ -5,3 +5,12 @@
 body {
     background-color: #F4FAFF;
 }
+
+.project-square {
+    /* ... Your existing styles ... */
+    transition: transform 0.3s ease; /* Add a transition for smooth scaling */
+  }
+  
+  .project-square.hovered {
+    transform: scale(1.05); /* Apply a slight scaling effect on hover */
+  }

@@ -3,9 +3,9 @@ import Logo from './Logo.jsx'
 
 const Footer = () => {
   return (
-    <div className='items-center justify-center bg-dknavy'>
+    <div className='items-center justify-center bg-dknavy p-5'>
       <div className='flex justify-around'>
-        <div className='flex items-center p-5 w-1/17'>
+        <div className='flex items-center p-3 w-1/17'>
           <Logo />
         </div>
         <div className='flex w-1/2 text-white justify-between items-center'>
@@ -26,18 +26,18 @@ const Footer = () => {
           </div>
           <div className='font-display'>
             <span className='font-bold'>Join our team <br /></span>
-            Careers <br />
+            <a href="/careers">Careers <br /></a>
             <br />
           </div>
         </div>
         <div className='flex items-center w-1/6'>
-          <div className='p-5'>
+          <div className='p-3'>
             <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fmapproved.jpeg')} />
           </div>
-          <div className='p-5'>
+          <div className='p-3'>
             <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/cert.png')} />
           </div>
-          <div className='p-5'>
+          <div className='p-3'>
             <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fcia.jpeg')} />
           </div>
         </div>
