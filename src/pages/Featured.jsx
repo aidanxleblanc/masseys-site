@@ -13,7 +13,7 @@ const FeaturedProjects = () => {
 
             <div className='flex font-display px-12 justify-center pb-8'>
                 <div className='image-container w-3/5'>
-                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylston copy.jpeg")} 
+                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylston_crop.jpeg")} 
                     className='w-full h-full'/> 
                 </div>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
@@ -53,9 +53,9 @@ const FeaturedProjects = () => {
                         underground parking and exclusive, landscaped outdoor spaces
                     </p>
                 </div>
-                <div className='image-container w-3/5'>
-                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_cropped.png")} 
-                    className='w-full h-full'/> 
+                <div className='image-containers w-1/2'>
+                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_crop.jpg")} 
+                    className=''/> 
                 </div>
             </div>
 
