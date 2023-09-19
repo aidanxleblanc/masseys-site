@@ -11,14 +11,15 @@ const OurHistory = () => {
   return (
     <div>
       <div className='flex flex-col font-display text-navy pb-10'>
-        <TitleHeading title='Our History'/>
+        <Navbar />
+        <PageTitle title='Our Story'/>
       </div>
         <Timeline 
             year='1973'
             loc='Branford, CT' 
             bold="Massey's is founded" 
             body='in a 3-car garage and began work on small commercial and residential firm.'/>
-        <Timeline 
+        <InvTimeline 
             year='1978' 
             loc='Branford, CT' 
             bold="Massey's opens its first office" 
@@ -32,32 +33,37 @@ const OurHistory = () => {
         <InvTimeline 
             year='1991' 
             loc='Branford, CT' 
-            bold='Something' 
-            body='happened'/>
+            bold='Casino work' 
+            body='beginning with Mohegan Sun'/>
         <Timeline 
             year='2008' 
             loc='Branford, CT' 
-            bold='Something' 
+            bold='All Panels Systems' 
+            body='happened'/>
+        <InvTimeline 
+            year='2010' 
+            loc='Boston, MA' 
+            bold='Boston Med Menino Expansion' 
             body='happened'/>
         <InvTimeline 
             year='2012' 
-            loc='Branford, CT' 
-            bold='Something' 
+            loc='Foxboro, MA' 
+            bold='Foxboro office' 
             body='happened'/>
         <Timeline 
             year='2014' 
-            loc='Branford, CT' 
-            bold='Something' 
+            loc='Boston, MA' 
+            bold='Boston Explosion' 
             body='happened'/>
         <InvTimeline 
             year='2016' 
             loc='Branford, CT' 
-            bold='Something' 
+            bold='Fabbrica partnership' 
             body='happened'/>
         <Timeline 
             year='2023' 
-            loc='Branford, CT' 
-            bold='Something' 
+            loc='Franklin, MA' 
+            bold='Franklin Office' 
             body='happened'/>
     </div>
   )

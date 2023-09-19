@@ -22,12 +22,11 @@ const Careers = () => {
         preferred qualifications for this role. Join us to lead impactful projects in a dynamic construction environment." />
         <PositionBannerLeft 
         pos = 'Project Estimator' 
-        desc = 'Our goal is to eliminate foreseeable hazards to maintain a safe and healthful work
-         environment for all employees. The core elements of our safety programinclude management 
-         leadership, worker participation, hazard identificationand assessment, hazard prevention and control, 
-         communication training, and program evaluation for continual improvement. Massey’s full time Safety Director
-        oversees every aspect of our field and fabrication operations for our glass and panel divisions.'
-        url = '/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg' />
+        desc = "As a Project Estimator at Massey's, you will play a pivotal role in the successful execution of a wide range
+         of projects. You will be responsible for accurately assessing project requirements, analyzing costs, and preparing 
+         detailed estimates to guide decision-making processes. Your expertise will be vital in ensuring that our projects 
+         are executed efficiently and within budget, while maintaining the highest standards of quality and safety in the 
+         plate and glass industry." />
         <PositionBannerRight 
         pos = 'CNC/CAD Programmer' 
         desc = "As a CNC/CAD Programmer at Massey's, your role is pivotal in transforming design concepts into high-quality glass products. 

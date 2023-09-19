@@ -6,7 +6,7 @@ const CrewBanner = () => {
           <div className='flex flex-col space-x-8 space-y-4 justify-center'>
             <h1 className='font-semi text-4xl'>
               At Massey's, we care about our crew.</h1>
-            <h1 className='text-xl'>
+            <h1 className='text-2xl'>
               + We provide initial and subsequent job specific training <br />
               + Benefits package includes heath benefits, 401(k), paid vacation & holidays <br />
               + Salary commensurate with experience <br />

@@ -13,7 +13,7 @@ const FeaturedProjects = () => {
 
             <div className='flex font-display px-12 justify-center pb-8'>
                 <div className='image-container w-3/5'>
-                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylston_crop.jpeg")} 
+                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg")} 
                     className='w-full h-full'/> 
                 </div>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
