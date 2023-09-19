@@ -17,7 +17,7 @@ const DropdownMenu = ({ name, items }) => {
         onMouseLeave={closeDropdown}
       >
           <button
-            className="font-display text-center text-base text-white-700 hover:text-black-300"
+            className="font-display text-center text-lg text-white-700 hover:text-black-300"
           >
             { name }
           </button>
@@ -32,8 +32,8 @@ const DropdownMenu = ({ name, items }) => {
             {items.map((item, index) => (
               <button >
                 <li key={index}
-                className="text-center text-sm p-1 hover:text-gold
-                  transition-all duration-300 hover:text-base">
+                className="text-center text-base p-1 hover:text-gold
+                  transition-all duration-300 hover:text-lg">
                     <a href={`/${item.toLowerCase().replace(/ /g, '-')}`}>
                       {item}
                     </a>

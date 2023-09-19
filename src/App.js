@@ -25,7 +25,7 @@ function App() {
             <Route path='/contact' element={<Contact />}/>
             <Route path='/featured' element={<Featured />}/>
             <Route path='/home' element={<Home />}/>
-            <Route path='/meet-the-team' element={<MeetTheTeam />}/>
+            <Route path='/our-team' element={<MeetTheTeam />}/>
             <Route path='/news-&-media' element={<NewsMedia />}/>
             <Route path='/our-story' element={<OurStory />}/>
             <Route path='/projects' element={<Projects />}/>
@@ -34,6 +34,21 @@ function App() {
             <Route path='/who-we-are' element={<WhoWeAre />}/>
 
             <Route path='/380-stuart-street' element={
+              <IndividualProject 
+              name='380 Stuart Street'
+              city='Boston'
+              state='Massachusetts'
+              year='2017'
+              type='Office'
+              arch='CBT Architects'
+              owner='Turner'
+              contr='Contractor'
+              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
+              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
+              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
+              tailored to meet your needs. '
+              />}/>
+              <Route path='/380-stuart-street' element={
               <IndividualProject 
               name='380 Stuart Street'
               city='Boston'

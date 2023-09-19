@@ -12,7 +12,7 @@ const PositionBannerRight = ({pos, desc}) => {
                 <h1 className='font-bold text-6xl'> {pos} </h1>
                 <h1 className='mt-6 text-lg'> {desc} </h1> 
             </div>
-            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/projectmanager.jpeg")} 
+            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/shoppic2.JPG")} 
             className='opacity-30 w-full h-full object-cover'/> 
         </div>
     </div>

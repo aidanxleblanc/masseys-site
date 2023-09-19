@@ -39,46 +39,22 @@ const IndividualProject = ({url, desc, name, city, state, year, type, arch, owne
             <h1>More {state} Projects</h1>
         </div>
         <div className='flex p-6 space-x-4'>
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
-            <ProjectSquare
-                imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')} 
-                name=''
-                loc=''
-            />
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg')}
+            name='888 Boylston Street' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/backbaysouth.jpeg')}
+            name='Back Bay South End Gateway' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bostonmed.jpeg')}
+            name='Boston Medical' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/budentalmed.jpeg')}
+            name='Boston University School of Dental Medicine' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg')}
+            name="Brigham & Women's Hospital" loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bulfinchxing.png')}
+            name='Bulfinch Crossing' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/eataly.jpeg')}
+            name='Eataly' loc='Boston, MA'/>
+            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
+            name="Fenway Center Phase II" loc='Boston, MA'/>
         </div>
         <div className='mt-4'>
             <Footer /> 

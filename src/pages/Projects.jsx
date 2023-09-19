@@ -16,43 +16,43 @@ const Projects = () => {
       <div>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105westst.png')}
           name='105 West 1st Street' loc='Boston, MA'/>
         <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
           name='380 Stuart Street' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaportalt.jpeg')}
           name='88 Seaport' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg')}
           name='888 Boylston Street' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/backbaysouth.jpeg')}
           name='Back Bay South End Gateway' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bostonmed.jpeg')}
           name='Boston Medical' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/budentalmed.jpeg')}
           name='Boston University School of Dental Medicine' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg')}
           name="Brigham & Women's Hospital" loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bulfinchxing.png')}
           name='Bulfinch Crossing' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/eataly.jpeg')}
           name='Eataly' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
           name="Fenway Center Phase II" loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/harvarderc.png')}
           name='Harvard ERC East & West Labs' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/massgeneral.png')}
           name='Mass General Hospital' loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/massmutual.jpeg')}
           name="Mass Mutual @ Fan Pier" loc='Boston, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4.jpg')}
           name='Pier 4' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
@@ -60,7 +60,7 @@ const Projects = () => {
           name='Twenty Two Liberty @ Fan Pier' loc='Boston, MA'/>
         <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg')}
           name="150 Second Street" loc='Cambridge, MA'/>
-        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/105w1street.jpeg')}
+        <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/binney.png')}
           name='290/250 Binney Street' loc='Cambridge, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
