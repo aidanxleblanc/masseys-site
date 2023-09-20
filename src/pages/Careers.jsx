@@ -33,8 +33,7 @@ const Careers = () => {
         This position fuses creativity, technical expertise, and precision to realize client visions. Responsibilities encompass CAD design, collaborating
          with architects and designers to create precise glass product drawings, and ensuring compliance with industry standards. You'll also engage in CNC 
          programming, crafting programs for cutting, shaping, and finishing glass components efficiently. Quality assurance is paramount, involving regular
-          checks to meet stringent quality standards and making necessary adjustments for product integrity. Staying abreast of CNC and CAD technology 
-          advancements is essential for process optimization." />
+          checks to meet stringent quality standards and making necessary adjustments for product integrity." />
         <div className='mt-8'>
           <Footer />
         </div>

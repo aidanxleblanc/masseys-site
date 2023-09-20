@@ -20,8 +20,8 @@ const Navbar = ({absolute, color}) => {
       </div>
         <div className='flex pt-8 text-center text-xl justify-center'>
             <a href="/projects"><DropdownMenu name="Projects" items={['Featured']}/></a>
-            <a href="/who-we-are"><DropdownMenu name="Who We Are" items={['Our Story', 'Our Team',]} /></a>
-            <a href="what-we-do"><DropdownMenu name="What We Do" items={['Sustainability']}/></a>
+            <DropdownMenu name="Who We Are" items={['Our Story', 'Our Mission',]} />
+            <DropdownMenu name="What We Do" items={['Our Work', 'Our Team']}/>
             <a href="/careers"><DropdownMenu name="Careers" items={[]}/></a>
             <a href="/contact"><DropdownMenu name="Contact" items={[]}/></a>     
         </div>

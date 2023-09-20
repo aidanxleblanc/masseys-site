@@ -2,6 +2,7 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 import PageTitle from '../components/PageTitle'
 import ProjectSquare from '../components/ProjectSquare'
+import IndvProjectSquare from '../components/IndvProjectSquare'
 import Footer from '../components/Footer'
 
 const IndividualProject = ({url, desc, name, city, state, year, type, arch, owner, contr}) => {
@@ -39,21 +40,21 @@ const IndividualProject = ({url, desc, name, city, state, year, type, arch, owne
             <h1>More {state} Projects</h1>
         </div>
         <div className='flex p-6 space-x-4'>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg')}
             name='888 Boylston Street' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/backbaysouth.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/backbaysouth.jpeg')}
             name='Back Bay South End Gateway' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bostonmed.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bostonmed.jpeg')}
             name='Boston Medical' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/budentalmed.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/budentalmed.jpeg')}
             name='Boston University School of Dental Medicine' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg')}
             name="Brigham & Women's Hospital" loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bulfinchxing.png')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bulfinchxing.png')}
             name='Bulfinch Crossing' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/eataly.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/eataly.jpeg')}
             name='Eataly' loc='Boston, MA'/>
-            <ProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
+            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
             name="Fenway Center Phase II" loc='Boston, MA'/>
         </div>
         <div className='mt-4'>

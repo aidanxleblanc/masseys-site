@@ -9,10 +9,9 @@ import Careers from './pages/Careers';
 import MeetTheTeam from './pages/MeetTheTeam';
 import Contact from './pages/Contact';
 import Sustainability from './pages/Sustainability';
-import WhoWeAre from './pages/WhoWeAre';
-import WhatWeDo from './pages/WhatWeDo';
 import OurStory from './pages/OurStory';
-import NewsMedia from './pages/NewsMedia';
+import OurMission from './pages/OurMission';
+import OurWork from './pages/OurWork';
 
 function App() { 
   return (
@@ -26,12 +25,11 @@ function App() {
             <Route path='/featured' element={<Featured />}/>
             <Route path='/home' element={<Home />}/>
             <Route path='/our-team' element={<MeetTheTeam />}/>
-            <Route path='/news-&-media' element={<NewsMedia />}/>
             <Route path='/our-story' element={<OurStory />}/>
+            <Route path='/our-work' element={<OurWork />}/>
+            <Route path='/our-mission' element={<OurMission />}/>
             <Route path='/projects' element={<Projects />}/>
             <Route path='/sustainability' element={<Sustainability />}/>
-            <Route path='/what-we-do' element={<WhatWeDo />}/>
-            <Route path='/who-we-are' element={<WhoWeAre />}/>
 
             <Route path='/380-stuart-street' element={
               <IndividualProject 
