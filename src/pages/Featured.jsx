@@ -53,7 +53,7 @@ const FeaturedProjects = () => {
                         underground parking and exclusive, landscaped outdoor spaces
                     </p>
                 </div>
-                <div className='image-containers w-1/2'>
+                <div className='image-containers w-3/5'>
                     <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_crop.jpg")} 
                     className=''/> 
                 </div>
@@ -82,31 +82,6 @@ const FeaturedProjects = () => {
                     </p>
                 </div>
             </div>
-
-            <div className='flex font-display px-12 justify-center text-right pb-8'>
-                <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
-                    <h1 className='font-semi text-4xl'>Pier 4</h1>
-                    <h2 className='font-semi text-xl pt-5'>
-                    Certified LEED Gold
-                        <br />
-                        Architect: <span className='font-regular'>CBT Architects</span> <br />
-                        Contractor: <span className='font-regular'>Turner Construction</span> <br /> 
-                    </h2>
-                    <p className='whitespace-normal pt-5'>
-                        The Residences at Pier 4 is one of the most exciting residential
-                        projects to come to Boston’s burgeoning Seaport District.  This art deco
-                        building houses 100+ ultra luxury residential units with private outdoor
-                        spaces and top of the line finishes. Building amenities include a 24 hour
-                        concierge, state of the art gym, residence lounge, private dining, 
-                        underground parking and exclusive, landscaped outdoor spaces
-                    </p>
-                </div>
-                <div className='image-container w-3/5'>
-                    <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_cropped.png")} 
-                    className='w-full h-full'/> 
-                </div>
-            </div>
-            <div className='pt-8'></div>
             <Footer />
         </div>
     </div>
