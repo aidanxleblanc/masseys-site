@@ -8,7 +8,6 @@ import IndividualProject from './pages/IndividualProject';
 import Careers from './pages/Careers';
 import MeetTheTeam from './pages/MeetTheTeam';
 import Contact from './pages/Contact';
-import Sustainability from './pages/Sustainability';
 import OurStory from './pages/OurStory';
 import OurMission from './pages/OurMission';
 import OurWork from './pages/OurWork';
@@ -29,7 +28,6 @@ function App() {
             <Route path='/our-work' element={<OurWork />}/>
             <Route path='/our-mission' element={<OurMission />}/>
             <Route path='/projects' element={<Projects />}/>
-            <Route path='/sustainability' element={<Sustainability />}/>
 
             <Route path='/380-stuart-street' element={
               <IndividualProject 

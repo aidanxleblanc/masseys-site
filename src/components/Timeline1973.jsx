@@ -1,14 +1,16 @@
 import React from 'react'
 
-const Timeline = ({year, loc, bold, body}) => {
+
+const Timeline1973 = ({year, loc, bold, body}) => {
   return (
+    
     <div class='flex items-center justify-center font-display text-navy pb-10'>
         <div class='flex flex-col font-semi p-6 text-right w-1/3'>
             <div class='text-6xl font-bold'>{year}</div>
             <div class='text-4xl pt-3 font-semi'>{loc}</div>
         </div>
         <div className='flex flex-col rounded-full aspect-square overflow-hidden w-1/8'>
-            <img src={require('./compimgs/88seaport.jpeg')} class='w-full h-full object-cover'/>
+            <img src={require('./compimgs/masseysr.jpg')} class='w-full h-full object-cover'/>
         </div>
         <div class='flex flex-col p-6 w-1/3'>
             <div class='text-4xl font-semi'>{bold}</div>
@@ -18,4 +20,4 @@ const Timeline = ({year, loc, bold, body}) => {
   )
 }
 
-export default Timeline
+export default Timeline1973
