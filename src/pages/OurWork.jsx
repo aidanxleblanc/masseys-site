@@ -6,6 +6,7 @@ const OurWork = () => {
   return (
     <div>
       <TitleHeading title="Our Work"/>
+      
     </div>
   )
 }

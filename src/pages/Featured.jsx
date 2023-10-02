@@ -70,7 +70,7 @@ const FeaturedProjects = () => {
                     Mass General/MIT/Harvard
                         <br />
                         Architect: <span className='font-regular'>Payette</span> <br />
-                        Contractor: <span className='font-regular'>Turner Construction</span> <br /> 
+                        Contractor: <span className='font-regular'>Dimeo</span> <br /> 
                     </h2>
                     <p className='whitespace-normal pt-5'>
                     Scheduled for completion in Winter 2023-2024, the Ragon

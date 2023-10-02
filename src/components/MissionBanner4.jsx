@@ -9,7 +9,7 @@ const MissionBanner = ({title, desc}) => {
                 <h1 className='mt-6 text-lg'> {desc} </h1> 
             </div>
             
-            <img src={require("../images/safety.JPG")} 
+            <img src={require("../images/shovels.png")} 
             
             className='opacity-20 w-full h-full object-cover'/> 
       
