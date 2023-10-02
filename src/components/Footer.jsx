@@ -32,13 +32,13 @@ const Footer = () => {
         </div>
         <div className='flex items-center w-1/6'>
           <div className='p-3'>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fmapproved.jpeg')} />
+            <img src={require('../images/fmapproved.jpeg')} />
           </div>
           <div className='p-3'>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/cert.png')} />
+            <img src={require('../images/cert.png')} />
           </div>
           <div className='p-3'>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fcia.jpeg')} />
+            <img src={require('../images/fcia.jpeg')} />
           </div>
         </div>
       </div>

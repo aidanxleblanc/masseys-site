@@ -24,25 +24,25 @@ const OurHistory = () => {
             year='1973'
             loc='Branford, CT' 
             bold="Massey's is founded" 
-            body='in a 3-car garage and began work on small commercial and residential firm.'
+            body='in a 3-car garage and began work as a small commercial and residential firm'
         />
         <Timeline1978 
             year='1978' 
             loc='Branford, CT' 
             bold="Massey's opens its first office" 
-            body='and begins work on larger commercial projects.'/>
+            body='and begins work on larger commercial projects'/>
         <Timeline1989 
             year='1989' 
             loc='New Haven, CT' 
             bold='One Century Tower' 
             body="becomes Massey's largest project yet, venturing into the world of healthcare
-            construction and forging a relationship with Blue Cross Blue Shield."/>
+            construction and forging a relationship with Blue Cross Blue Shield"/>
         <Timeline1991 
             year='1991' 
             loc='Branford, CT' 
             bold="Casino work" 
             body="becomes a new Massey's specialty, beginning with Mohegan Sun
-            and "/>
+            and many shortly after"/>
         <Timeline2008
             year='2008' 
             loc='Branford, CT' 
@@ -56,24 +56,24 @@ const OurHistory = () => {
             body='with a large project in the Boston Medical Menino Expansion'/>
         <Timeline2012 
             year='2012' 
-            loc='Foxboro, MA' 
-            bold='Foxboro office' 
-            body='happened'/>
+            loc='Foxborough, MA' 
+            bold='The Foxborough office' 
+            body='opens its doors for the first time'/>
         <Timeline2014 
             year='2014' 
             loc='Boston, MA' 
-            bold="Outpour of work"
+            bold="An outpour of Boston projects"
             body='brings architectural feats into and paves the way for a Boston takeover'/>
         <Timeline2016
             year='2016' 
             loc='Branford, CT' 
-            bold='Fabbrica partnership' 
-            body='happened'/>
+            bold="Massey's partners with Fabbrica" 
+            body='to help with SOMETHING'/>
         <Timeline2023 
             year='2023' 
             loc='Franklin, MA' 
-            bold='Franklin Office' 
-            body='happened'/>
+            bold="Massey's celebrates 50 years"
+            body='and sets up shop at its Franklin office'/>
     </div>
   )
 }

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import Navbar from '../components/Navbar';
+import Navbar from '../../components/Navbar';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import PageTitle from '../components/PageTitle';
-import IndvProjectSquare from '../components/IndvProjectSquare';
-import Footer from '../components/Footer';
+import PageTitle from '../../components/PageTitle';
+import IndvProjectSquare from '../../components/IndvProjectSquare';
+import Footer from '../../components/Footer';
 
-import img1 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img2 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/88seaport.jpeg";
+import img1 from "../../images/380stuart.jpeg";
+import img2 from "../../images/88seaport.jpeg";
 import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
 import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
 import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";

@@ -10,7 +10,7 @@ const Timeline2012 = ({year, loc, bold, body}) => {
             <div class='text-4xl pt-3 font-semi'>{loc}</div>
         </div>
         <div className='flex flex-col rounded-full aspect-square overflow-hidden w-1/8'>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/masseysr.jpg')} class='w-full h-full object-cover'/>
+            <img src={require('../images/foxborough.png')} class='w-full h-full object-cover'/>
         </div>
         <div class='flex flex-col p-6 w-1/3'>
             <div class='text-4xl font-semi'>{bold}</div>

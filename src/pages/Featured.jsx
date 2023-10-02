@@ -73,12 +73,10 @@ const FeaturedProjects = () => {
                         Contractor: <span className='font-regular'>Turner Construction</span> <br /> 
                     </h2>
                     <p className='whitespace-normal pt-5'>
-                        Located at Prudential Center in the heart of Boston’s 
-                        vibrant Back Bay neighborhood, 888 Boylston Street is a 17-story
-                        mixed-use building of approximately 425,000 square feet. Building
-                        upon a history of sustainability and green building leadership, 
-                        BXP held a clear vision and firm stance from the first kickoff 
-                        meeting: 888 Boylston Street would be Boston’s Most Sustainable Building.
+                    Scheduled for completion in Winter 2023-2024, the Ragon
+                    will be used for research of infectious diseases. The façade consists of 
+                     unitized curtain wall system composed of glass and formed vertical metal panel fins. 
+                     Podium includes wood curtain wall, aluminum doors, glass doors and revolving doors.
                     </p>
                 </div>
             </div>

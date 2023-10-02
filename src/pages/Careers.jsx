@@ -1,6 +1,7 @@
 import React from 'react'
 import TitleHeading from '../components/TitleHeading'
 import PositionBannerRight from '../components/PositionBannerRight'
+import PositionBanner2 from '../components/PositionBanner2'
 import Footer from '../components/Footer'
 import PositionBannerLeft from '../components/PositionBannerLeft'
 import CrewBanner from '../components/CrewBanner'
@@ -27,7 +28,7 @@ const Careers = () => {
          detailed estimates to guide decision-making processes. Your expertise will be vital in ensuring that our projects 
          are executed efficiently and within budget, while maintaining the highest standards of quality and safety in the 
          plate and glass industry." />
-        <PositionBannerRight 
+        <PositionBanner2 
         pos = 'CNC/CAD Programmer' 
         desc = "As a CNC/CAD Programmer at Massey's, your role is pivotal in transforming design concepts into high-quality glass products. 
         This position fuses creativity, technical expertise, and precision to realize client visions. Responsibilities encompass CAD design, collaborating

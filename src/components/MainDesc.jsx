@@ -21,8 +21,8 @@ const MainDesc = () => {
             <br></br>
             <br></br>
             Learn more about Who We Are and What We Do by following the links
-            on the left side of the page - see for yourself what makes Massey's
-            like no other.
+            at the top of the page - see for yourself what makes Massey's
+            special.
             <br></br>
             <br></br>
             We are proud of our past and confident of our future. You 

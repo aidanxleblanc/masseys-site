@@ -8,7 +8,7 @@ const Timeline1991 = ({year, loc, bold, body}) => {
                 <div class='text-xl'>{body}</div>
             </div>
             <div className='flex flex-col rounded-full aspect-square overflow-hidden w-1/8'>
-                <img src={require('./compimgs/88seaport.jpeg')} class='w-full h-full object-cover'/>
+                <img src={require('./compimgs/mohegan.jpeg')} class='w-full h-full object-cover'/>
             </div>
             <div class='flex flex-col p-6 text-left w-1/3'>
                 <div class='text-6xl font-bold'>{year}</div>
