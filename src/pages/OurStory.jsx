@@ -24,7 +24,7 @@ const OurHistory = () => {
             year='1973'
             loc='Branford, CT' 
             bold="Massey's is founded" 
-            body='in a 3-car garage and began work as a small commercial and residential firm'
+            body='in a 3-car garage and begins work as a small commercial and residential firm'
         />
         <Timeline1978 
             year='1978' 
@@ -53,7 +53,7 @@ const OurHistory = () => {
             year='2010' 
             loc='Boston, MA' 
             bold="Massey's comes to Boston"
-            body='with a large project in the Boston Medical Menino Expansion'/>
+            body='and begins its first large project there with the Boston Medical Menino Expansion'/>
         <Timeline2012 
             year='2012' 
             loc='Foxborough, MA' 
@@ -63,17 +63,17 @@ const OurHistory = () => {
             year='2014' 
             loc='Boston, MA' 
             bold="An outpour of Boston projects"
-            body='brings architectural feats into and paves the way for a Boston takeover'/>
+            body="paves the way for Massey's to become a top player in the city"/>
         <Timeline2016
             year='2016' 
             loc='Branford, CT' 
             bold="Massey's partners with Fabbrica" 
-            body='to help with SOMETHING'/>
+            body=''/>
         <Timeline2023 
             year='2023' 
             loc='Franklin, MA' 
             bold="Massey's celebrates 50 years"
-            body='and sets up shop at its Franklin office'/>
+            body='and sets up shop at its new Franklin office'/>
     </div>
   )
 }

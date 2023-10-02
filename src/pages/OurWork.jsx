@@ -1,8 +1,12 @@
 import React from 'react'
+import Navbar from '../components/Navbar'
+import TitleHeading from '../components/TitleHeading'
 
 const OurWork = () => {
   return (
-    <div>OurWork</div>
+    <div>
+      <TitleHeading title="Our Work"/>
+    </div>
   )
 }
 
