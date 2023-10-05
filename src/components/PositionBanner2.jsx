@@ -5,8 +5,8 @@ const PositionBannerRight = ({pos, desc}) => {
     <div className='flex justify-center space-x-8 mt-8'>
         <div className='w-1/2 flex items-center bg-navy font-display text-white'>
             <div className='w-1/2 absolute px-16' style={{ zIndex: 1 }}>
-                <h1 className='font-bold text-6xl'> {pos} </h1>
-                <h1 className='mt-6 text-lg'> {desc} </h1> 
+                <h1 className='font-bold text-5xl'> {pos} </h1>
+                <h1 className='mt-6 text-base'> {desc} </h1> 
             </div>
               <img src={require("../images/shoppic3.jpeg")} 
               className='opacity-30 w-full h-full object-cover'/> 

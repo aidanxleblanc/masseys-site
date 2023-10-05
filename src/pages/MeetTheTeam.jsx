@@ -18,9 +18,9 @@ const MeetTheTeam = () => {
         <PageTitle title='Meet the Team'/>
         <div className='flex justify-center space-x-16 pt-12'>
             <PersonBubbleBobby name='Robert Massey Jr.' pos='President & CEO'/>
-            <PersonBubbleCriscuolo name='Joseph Criscuolo' pos='Chief Financial Officer'/>
             <PersonBubbleDeLise name='Philip DeLise' pos='Chief Operating Officer'/>
             <PersonBubbleRich name='Rich Ezold Jr.' pos='Chief Administrative Officer'/>
+            <PersonBubbleCriscuolo name='Joseph Criscuolo' pos='Chief Financial Officer'/>
         </div>
         <div className='flex justify-center space-x-20 pt-12 pb-16'>
             <PersonBubbleEssig name='Don Essig Jr.' pos='Vice President of Operations'/>

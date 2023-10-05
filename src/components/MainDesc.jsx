@@ -2,10 +2,10 @@ import React from 'react'
 
 const MainDesc = () => {
   return (
-    <div className='flex flex-col justify- pt-10 items-center space-y-4 font-display text-[#39516D]'>
-        <h1 className='text-5xl text-right'>Build on our experience.</h1>
-        <h1 className='text-5xl text-right'>Build with confidence.</h1>
-        <h1 className='font-display text-center text-2xl p-6'>Since 1973, Massey’s has provided architectural glass 
+    <div className='flex flex-col pt-4 pb-10 items-center justify-center space-y-2 font-display text-[#39516D]'>
+        <h1 className='text-4xl text-right'>Build on our experience.</h1>
+        <h1 className='text-4xl text-right'>Build with confidence.</h1>
+        <h1 className='font-display text-center text-xl p-6'>Since 1973, Massey’s has provided architectural glass 
             and aluminum products, specialized craftsmanship and 
             glazing project management to a long list of the nation’s 
             most successful contractors, architects, and developers. 

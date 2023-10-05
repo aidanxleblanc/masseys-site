@@ -13,7 +13,7 @@ const FeaturedProjects = () => {
 
             <div className='flex font-display px-12 justify-center pb-8'>
                 <div className='image-container w-3/5'>
-                    <img src={require("../images/888boylstonalt.jpeg")} 
+                    <img src={require("../images/888boylstonshot.png")} 
                     className='w-full h-full'/> 
                 </div>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
@@ -37,8 +37,8 @@ const FeaturedProjects = () => {
 
             <div className='flex font-display px-12 justify-center text-right pb-8'>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
-                    <h1 className='font-semi text-4xl'>Pier 4</h1>
-                    <h2 className='font-semi text-xl pt-5'>
+                    <h1 className='font-semi text-3xl'>Pier 4</h1>
+                    <h2 className='font-semi text-lg pt-5'>
                     Certified LEED Gold
                         <br />
                         Architect: <span className='font-regular'>CBT Architects</span> <br />
@@ -54,7 +54,7 @@ const FeaturedProjects = () => {
                     </p>
                 </div>
                 <div className='image-containers w-3/5'>
-                    <img src={require("../images/pier4_crop.jpg")} 
+                    <img src={require("../images/pier4nightcrop.jpeg")} 
                     className=''/> 
                 </div>
             </div>
@@ -65,8 +65,8 @@ const FeaturedProjects = () => {
                     className='w-full h-full'/> 
                 </div>
                 <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
-                    <h1 className='font-semi text-4xl'>Ragon Institute 2.0</h1>
-                    <h2 className='font-semi text-xl pt-5'>
+                    <h1 className='font-semi text-3xl'>Ragon Institute 2.0</h1>
+                    <h2 className='font-semi text-lg pt-5'>
                     Mass General/MIT/Harvard
                         <br />
                         Architect: <span className='font-regular'>Payette</span> <br />
