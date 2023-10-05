@@ -6,9 +6,9 @@ const TitleHeading = ({title}) => {
     <div className='flex items-center'>
         <Navbar absolute='false' color='white'/>
         <img 
-            src={require('../images/105w1street_cropped.jpeg')} 
+            src={require('../images/ragon.png')} 
             className='w-full'/>
-        <h1 className='absolute w-full text-center pb-10 text-6xl font-display font-semi text-white'>{title}</h1>
+        <h1 className='absolute w-full text-center pb-10 text-6xl font-display font-semi text-white'>Our Work</h1>
     </div>
   )
 }

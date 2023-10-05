@@ -6,11 +6,12 @@ import './App.css';
 import Featured from './pages/Featured';
 import Careers from './pages/Careers';
 import MeetTheTeam from './pages/MeetTheTeam';
-import Contact from './pages/Contact';
+import Contact from './pages/ContactTest';
 import OurStory from './pages/OurStory';
 import OurMission from './pages/OurMission';
 import OurWork from './pages/OurWork';
 
+import West1st from './pages/projects/105West1st';
 import Stuart380 from './pages/projects/380Stuart';
 
 function App() { 
@@ -31,8 +32,8 @@ function App() {
             <Route path='/projects' element={<Projects />}/>
 
             <Route path='/105-west-1st-street' element={
-              <Stuart380 
-              name='380 Stuart Street'
+              <West1st 
+              name='105 West 1st Street'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -62,7 +63,7 @@ function App() {
               />}/>
             <Route path='/88-seaport' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='88 Seaport'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -77,7 +78,7 @@ function App() {
               />}/>
             <Route path='/888-boylston-street' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='88 Boylston Street'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -92,7 +93,7 @@ function App() {
               />}/>
             <Route path='/back-bay-south-end-gateway' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Back Bay South End Gateway'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -107,7 +108,7 @@ function App() {
               />}/>
             <Route path='/boston-medical' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Boston Medical'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -122,7 +123,7 @@ function App() {
               />}/>
             <Route path='/boston-university-school-of-dental-medicine' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Boston University School of Dental Medicine'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -137,7 +138,7 @@ function App() {
               />}/>
             <Route path="/brigham-&-women's-hospital" element={
               <Stuart380 
-              name='380 Stuart Street'
+              name="Brigham & Women's Hospital"
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -152,7 +153,7 @@ function App() {
               />}/>
             <Route path='/bulfinch-crossing' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Bulfinch Crossing'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -167,7 +168,7 @@ function App() {
               />}/>
             <Route path='/eataly' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Eataly'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -182,7 +183,7 @@ function App() {
               />}/>
             <Route path='/fenway-center-phase-ii' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Fenway Center Phase II'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -197,7 +198,7 @@ function App() {
               />}/>
             <Route path='/harvard-erc-east-&-west-labs' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Harvard ERC East & West Labs'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -212,7 +213,7 @@ function App() {
               />}/>
             <Route path='/mass-general-hospital' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Mass General Hospital'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -227,7 +228,7 @@ function App() {
               />}/>
             <Route path='/mass-mutual-@-fan-pier' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Mass Mutual @ Fan Pier'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -242,7 +243,7 @@ function App() {
               />}/>
             <Route path='/pier-4' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Pier 4'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -257,7 +258,7 @@ function App() {
               />}/>
             <Route path='/twenty-two-liberty-@-fan-pier' element={
               <Stuart380 
-              name='380 Stuart Street'
+              name='Twenty Two Lberty @ Pier'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -272,8 +273,8 @@ function App() {
               />}/>
             <Route path='/150-2nd-street' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
+              name='150 2nd Street'
+              city='Cambridge'
               state='Massachusetts'
               year='2017'
               type='Office'
@@ -287,8 +288,8 @@ function App() {
               />}/>
             <Route path='/290/250-binney-street' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
+              name='290/250 Binney Street'
+              city='Cambridge'
               state='Massachusetts'
               year='2017'
               type='Office'
@@ -302,8 +303,8 @@ function App() {
               />}/>
             <Route path='/google-headquarters' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
+              name='Google Headquarters'
+              city='Cambridge'
               state='Massachusetts'
               year='2017'
               type='Office'
@@ -317,8 +318,8 @@ function App() {
               />}/>
             <Route path="/mit-site-5" element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
+              name='MIT Site 5'
+              city='Cambridge'
               state='Massachusetts'
               year='2017'
               type='Office'
@@ -332,8 +333,8 @@ function App() {
               />}/>
             <Route path='/ragon-institute-ii' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
+              name='Ragon Institute II'
+              city='Cambridge'
               state='Massachusetts'
               year='2017'
               type='Office'
@@ -347,9 +348,9 @@ function App() {
               />}/>
             <Route path='/uri-college-of-engineering' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
-              state='Massachusetts'
+              name='URI College of Engineering'
+              city='South Kingston'
+              state='Rhode Island'
               year='2017'
               type='Office'
               arch='CBT Architects'
@@ -362,9 +363,9 @@ function App() {
               />}/>
             <Route path='/danbury-hospital' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
-              state='Massachusetts'
+              name='Danbury Hospital'
+              city='Danbury'
+              state='Connecticut'
               year='2017'
               type='Office'
               arch='CBT Architects'
@@ -377,9 +378,9 @@ function App() {
               />}/>
             <Route path='/quinnipiac-university-wellness-center' element={
               <Stuart380 
-              name='380 Stuart Street'
-              city='Boston'
-              state='Massachusetts'
+              name='Quinnipiac University Wellness Center'
+              city='Hamden'
+              state='CT'
               year='2017'
               type='Office'
               arch='CBT Architects'

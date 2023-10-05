@@ -14,10 +14,9 @@ const OurMission = () => {
         <MissionBanner3
           title='Safety first.'
           desc=
-         "At Massey's, we prioritize safety in all aspects of our operations. Employees are empowered to request the suspension or shutdown of any work activity they believe to be unsaf, 
+         "Employees are empowered to request the suspension or shutdown of any work activity they believe to be unsafe, 
 and our safety manager and project management team regularly inspects job sites to identify potential hazards. 
-Thorough investigations are conducted to pinpoint underlying hazards, their causes, and any deficiencies in 
-our safety and health program. We actively involve our workforce in hazard prevention and control 
+We actively involve our workforce in hazard prevention and control 
 efforts while evaluating the effectiveness of existing safety controls and explore new technologies that 
 may offer better protection. Ensuring that workers possess the knowledge and skills needed to perform their 
 jobs safely is a top priority at Massey's, conducting regular toolbox talks focused on pertinent safety issues faced 
