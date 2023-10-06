@@ -62,7 +62,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
           Healthcare<br />
         </div>
       </div>
-        <div className='font-semi text-3xl text-center pt-6'>
+        {/* <div className='font-semi text-3xl text-center pt-6'>
             <h1>More {state} Projects</h1>
         </div>
         <div className='flex p-6 space-x-4'>
@@ -82,7 +82,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
             name='Eataly' loc='Boston, MA'/>
             <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
             name="Fenway Center Phase II" loc='Boston, MA'/>
-        </div>
+        </div> */}
         <div className='mt-4'>
             <Footer /> 
         </div>

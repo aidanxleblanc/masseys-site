@@ -64,27 +64,27 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
           Education <br />
         </div>
       </div>
-        <div className='font-semi text-3xl text-center pt-6'>
+        {/* <div className='font-semi text-3xl text-center pt-6'>
             <h1>More {state} Projects</h1>
         </div>
         <div className='flex p-6 space-x-4'>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/888boylstonalt.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/888boylstonalt.jpeg')}
             name='888 Boylston Street' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/backbaysouth.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/backbaysouth.jpeg')}
             name='Back Bay South End Gateway' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bostonmed.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/bostonmed.jpeg')}
             name='Boston Medical' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/budentalmed.jpeg')}
-            name='Boston University School of Dental Medicine' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/brighamwomens.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/budentalmed.jpeg')}
+            name='Boston University Dental Medicine' loc='Boston, MA'/>
+            <IndvProjectSquare imageUrl={require('../../images/brighamwomens.jpeg')}
             name="Brigham & Women's Hospital" loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/bulfinchxing.png')}
+            <IndvProjectSquare imageUrl={require('../../images/bulfinchxing.png')}
             name='Bulfinch Crossing' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/eataly.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/eataly.jpeg')}
             name='Eataly' loc='Boston, MA'/>
-            <IndvProjectSquare imageUrl={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/fenwayphaseii.jpeg')}
+            <IndvProjectSquare imageUrl={require('../../images/fenwayphaseii.jpeg')}
             name="Fenway Center Phase II" loc='Boston, MA'/>
-        </div>
+        </div> */}
         <div className='mt-4'>
             <Footer /> 
         </div>
