@@ -7,13 +7,8 @@ import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
 import img1 from "./prjimg/380Stuart_1.png";
-// import img2 from "./prjimg/380Stuart_2.png";
-// import img3 from "./prjimg/380Stuart_3.png";
 
-const images = [img1, 
-  // img2, img3
-
-];
+const images = [img1];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -49,10 +44,10 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
         </div>
       </div>
-      <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-xl text-center w-2/3'>{desc}</h1>
-      </div>
-      <div className='flex'>
+      {/* <div className='flex justify-center p-6'>
+        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
+      </div> */}
+      <div className='flex mt-6'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
           Type: <br />

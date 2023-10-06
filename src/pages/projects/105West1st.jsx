@@ -6,11 +6,11 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/88seaport.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/West_1.jpeg";
+import img2 from "./prjimg/West_2.jpeg";
+import img3 from "./prjimg/West_3.jpeg";
+import img4 from "./prjimg/West_4.jpeg";
+import img5 from "./prjimg/West_5.jpeg";
 
 const images = [img1, img2, img3, img4, img5];
 

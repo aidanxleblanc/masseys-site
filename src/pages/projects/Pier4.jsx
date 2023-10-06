@@ -6,13 +6,12 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/Pier_1.jpeg";
+import img2 from "./prjimg/Pier_2.jpeg";
+import img3 from "./prjimg/Pier_3.jpeg";
+import img4 from "./prjimg/Pier_4.jpeg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3, img4];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -33,12 +32,13 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
       <Navbar color='navy' />
       <PageTitle title={name} />
       <div className='flex justify-center'>
+      <div className='flex justify-center w-2/3 items-center'>
         <div className='flex items-center justify-center p-5'>
             <button onClick={handlePrevImage}>
                 <FontAwesomeIcon icon={faChevronLeft} />
             </button>
         </div>
-        <div className='flex w-2/3'>
+        <div className='flex'>
           {/* Display the image based on the currentImageIndex */}
           <img src={images[currentImageIndex]} alt={`Project ${currentImageIndex + 1}`} />
         <div className='flex items-center p-5'>
@@ -48,10 +48,11 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
         </div>
       </div>
-      <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
       </div>
-      <div className='flex'>
+      {/* <div className='flex justify-center p-6'>
+        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
+      </div> */}
+      <div className='flex mt-6'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
           Type: <br />

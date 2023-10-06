@@ -4,7 +4,7 @@ const PersonBubbleDeLise = ({name, pos, imageUrl}) => {
   return (
     <div className='w-1/7'>
         <div className='flex flex-col rounded-full overflow-hidden'>
-            <img src={require("./compimgs/noprof.jpeg")} />
+            <img src={require("./compimgs/phil.png")} />
         </div>
         <div className='font-display text-navy mt-4'>
             <h1 className='text-center font-bold text-xl'>{name}</h1>
