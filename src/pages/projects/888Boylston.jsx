@@ -29,7 +29,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
       <PageTitle title="888 Boylston Street" />
       <div className='flex justify-center'>

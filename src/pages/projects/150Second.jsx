@@ -6,13 +6,10 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/Second150_1.jpeg";
+import img2 from "./prjimg/Second150_2.jpeg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -29,7 +26,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
       <PageTitle title={name} />
       <div className='flex justify-center'>

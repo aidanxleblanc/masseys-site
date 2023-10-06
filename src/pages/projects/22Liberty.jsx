@@ -6,12 +6,12 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "./prjimg/Liberty_1.jpeg";
-import img2 from "./prjimg/Liberty_2.jpeg";
-import img3 from "./prjimg/Liberty_3.jpeg";
-import img4 from "./prjimg/Liberty_4.jpeg";
+import img1 from "./prjimg/22Liberty_1.jpeg";
+import img2 from "./prjimg/22Liberty_2.jpeg";
+import img3 from "./prjimg/22Liberty_3.jpeg";
 
-const images = [img1, img2, img3, img4];
+
+const images = [img1, img2, img3];
 
 const Liberty22 = ({ url, name, city, state}) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -28,7 +28,7 @@ const Liberty22 = ({ url, name, city, state}) => {
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
       <PageTitle title={name} />
       <div className='flex justify-center'>

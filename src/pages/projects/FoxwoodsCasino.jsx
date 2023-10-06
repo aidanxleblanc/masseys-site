@@ -6,13 +6,11 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/Foxwoods_1.jpeg";
+import img2 from "./prjimg/Foxwoods_2.jpeg";
+import img3 from "./prjimg/Foxwoods_3.jpeg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -29,9 +27,9 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
-      <PageTitle title={name} />
+      <PageTitle title="Foxwoods Resort Hotel & Casino" />
       <div className='flex justify-center'>
       <div className='flex justify-center w-2/3 items-center'>
         <div className='flex items-center justify-center p-5'>
@@ -59,7 +57,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          Ledyard, CT <br />
+          Ledyard, Connecticut <br />
           Casino <br />
         </div>
       </div>

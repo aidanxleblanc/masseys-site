@@ -6,11 +6,11 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/WhitePlains_1.jpeg";
+import img2 from "./prjimg/WhitePlains_2.jpeg";
+import img3 from "./prjimg/WhitePlains_3.jpeg";
+import img4 from "./prjimg/WhitePlains_4.jpeg";
+import img5 from "./prjimg/WhitePlains_5.jpeg";
 
 const images = [img1, img2, img3, img4, img5];
 
@@ -29,16 +29,17 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
-      <PageTitle title={name} />
+      <PageTitle title="White Plains Hospital Medical Center" />
       <div className='flex justify-center'>
+      <div className='flex justify-center w-2/3 items-center'>
         <div className='flex items-center justify-center p-5'>
             <button onClick={handlePrevImage}>
                 <FontAwesomeIcon icon={faChevronLeft} />
             </button>
         </div>
-        <div className='flex w-2/3'>
+        <div className='flex'>
           {/* Display the image based on the currentImageIndex */}
           <img src={images[currentImageIndex]} alt={`Project ${currentImageIndex + 1}`} />
         <div className='flex items-center p-5'>
@@ -47,6 +48,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
             </button>
         </div>
         </div>
+      </div>
       </div>
       {/* <div className='flex justify-center p-6'>
         <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>

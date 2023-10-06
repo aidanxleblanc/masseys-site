@@ -6,13 +6,15 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/101College_1.jpeg";
+import img2 from "./prjimg/101College_2.jpeg";
+import img3 from "./prjimg/101College_3.jpeg";
+import img4 from "./prjimg/101College_4.jpeg";
+import img5 from "./prjimg/101College_5.jpeg";
+import img6 from "./prjimg/101College_6.jpeg";
+import img7 from "./prjimg/101College_7.jpeg";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, img2, img3, img4, img5, img6, img7];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -29,16 +31,17 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
       <PageTitle title={name} />
       <div className='flex justify-center'>
+      <div className='flex justify-center w-2/3 items-center'>
         <div className='flex items-center justify-center p-5'>
             <button onClick={handlePrevImage}>
                 <FontAwesomeIcon icon={faChevronLeft} />
             </button>
         </div>
-        <div className='flex w-2/3'>
+        <div className='flex'>
           {/* Display the image based on the currentImageIndex */}
           <img src={images[currentImageIndex]} alt={`Project ${currentImageIndex + 1}`} />
         <div className='flex items-center p-5'>
@@ -47,6 +50,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
             </button>
         </div>
         </div>
+      </div>
       </div>
       {/* <div className='flex justify-center p-6'>
         <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>

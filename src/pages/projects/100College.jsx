@@ -28,9 +28,9 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
-      <PageTitle title={name} />
+      <PageTitle title="100 College Street" />
       <div className='flex justify-center'>
         <div className='flex items-center justify-center p-5'>
             <button onClick={handlePrevImage}>
