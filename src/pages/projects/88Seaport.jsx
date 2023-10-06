@@ -48,19 +48,18 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
         </div>
       </div>
-      <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
-      </div>
-      <div className='flex'>
+      {/* <div className='flex justify-center p-6'>
+        <h1 className='font-thin text-2xl text-center w-2/3'>
+        </h1>
+      </div> */}
+      <div className='flex mt-6 '>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
-          Year: <br />
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          {city}, {state} <br />
-          {year} <br />
-          {type} <br />
+          Boston, Massachusetts <br />
+          Office <br />
         </div>
       </div>
         <div className='font-semi text-3xl text-center pt-6'>

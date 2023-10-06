@@ -7,7 +7,7 @@ const Contact = () => {
   return (
     <div>
       <div className='relative top-0'>
-      <Navbar absolute={true} color='white'/>
+      <Navbar />
         <div className="bg-cover bg-center h-screen" style={{ backgroundImage: `url(${backgroundImage})` }}>
         </div>
       </div>

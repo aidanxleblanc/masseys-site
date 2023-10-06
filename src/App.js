@@ -11,8 +11,56 @@ import OurStory from './pages/OurStory';
 import OurMission from './pages/OurMission';
 import OurWork from './pages/OurWork';
 
+import Liberty22 from './pages/projects/22Liberty';
+import Park55 from './pages/projects/55Park';
+import Seaport88 from './pages/projects/88Seaport';
+import College100 from './pages/projects/100College';
+import College101 from './pages/projects/101College';
 import West1st from './pages/projects/105West1st';
+import Second150 from './pages/projects/150Second';
 import Stuart380 from './pages/projects/380Stuart';
+import Boylston888 from './pages/projects/888Boylston';
+import BackBay from './pages/projects/BackBaySouthEnd';
+import Binney from './pages/projects/Binney';
+import BostonMed from './pages/projects/BostonMed';
+import Brigham from './pages/projects/BrighamWomens';
+import BrownEngn from './pages/projects/BrownEngn';
+import BryantBello from './pages/projects/BryantBello';
+import BUDental from './pages/projects/BUDental';
+import Bulfinch from './pages/projects/Bulfinch';
+import Danbury from './pages/projects/DanburyHospital';
+import Dunk from './pages/projects/Dunk';
+import Eataly from './pages/projects/Eataly';
+import Fenway from './pages/projects/FenwayCenter';
+import Foxwoods from './pages/projects/FoxwoodsCasino';
+import Google from './pages/projects/GoogleHQ';
+import Harvard from './pages/projects/HarvardERC';
+import Knights from './pages/projects/KnightsColumbus';
+import MassGeneral from './pages/projects/MassGeneral';
+import MassMutual from './pages/projects/MassMutual';
+import MGM from './pages/projects/MGMGrand';
+import MIT from './pages/projects/MITSite5';
+import Earth from './pages/projects/MoheganEarth';
+import Tower from './pages/projects/MoheganTower';
+import Norwalk from './pages/projects/NorwalkHospital';
+import PCBusiness from './pages/projects/PCBusiness';
+import PCFriar from './pages/projects/PCFriar';
+import Pier4 from './pages/projects/Pier4';
+import ProvPlace from './pages/projects/ProvPlace';
+import Wellness from './pages/projects/QuinnipiacWellness';
+import Ragon from './pages/projects/Ragon';
+import SSL from './pages/projects/SSL';
+import Stamford from './pages/projects/StamfordHospital';
+import Gant from './pages/projects/UCONNGant';
+import Stem from './pages/projects/UCONNStem';
+import URIEngn from './pages/projects/URIEngn';
+import WhitePlains from './pages/projects/WhitePlainsHospital';
+import WomenInfants from './pages/projects/WomenInfants';
+import YaleNewHaven from './pages/projects/YaleNewHaven';
+import Peabody from './pages/projects/YalePeabody';
+import Smilow from './pages/projects/YaleSmilow';
+
+
 
 function App() { 
   return (
@@ -41,10 +89,6 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/380-stuart-street' element={
               <Stuart380 
@@ -56,13 +100,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/88-seaport' element={
-              <Stuart380 
+              <Seaport88 
               name='88 Seaport'
               city='Boston'
               state='Massachusetts'
@@ -71,13 +111,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/888-boylston-street' element={
-              <Stuart380 
+              <Boylston888 
               name='88 Boylston Street'
               city='Boston'
               state='Massachusetts'
@@ -86,13 +122,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/back-bay-south-end-gateway' element={
-              <Stuart380 
+              <BackBay 
               name='Back Bay South End Gateway'
               city='Boston'
               state='Massachusetts'
@@ -101,13 +133,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/boston-medical' element={
-              <Stuart380 
+              <BostonMed 
               name='Boston Medical'
               city='Boston'
               state='Massachusetts'
@@ -116,13 +144,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/boston-university-school-of-dental-medicine' element={
-              <Stuart380 
+              <BUDental 
               name='Boston University School of Dental Medicine'
               city='Boston'
               state='Massachusetts'
@@ -131,13 +155,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path="/brigham-&-women's-hospital" element={
-              <Stuart380 
+              <Brigham 
               name="Brigham & Women's Hospital"
               city='Boston'
               state='Massachusetts'
@@ -146,13 +166,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/bulfinch-crossing' element={
-              <Stuart380 
+              <Bulfinch 
               name='Bulfinch Crossing'
               city='Boston'
               state='Massachusetts'
@@ -161,13 +177,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/eataly' element={
-              <Stuart380 
+              <Eataly 
               name='Eataly'
               city='Boston'
               state='Massachusetts'
@@ -176,13 +188,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/fenway-center-phase-ii' element={
-              <Stuart380 
+              <Fenway 
               name='Fenway Center Phase II'
               city='Boston'
               state='Massachusetts'
@@ -191,13 +199,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/harvard-erc-east-&-west-labs' element={
-              <Stuart380 
+              <Harvard 
               name='Harvard ERC East & West Labs'
               city='Boston'
               state='Massachusetts'
@@ -206,13 +210,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/mass-general-hospital' element={
-              <Stuart380 
+              <MassGeneral 
               name='Mass General Hospital'
               city='Boston'
               state='Massachusetts'
@@ -221,13 +221,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/mass-mutual-@-fan-pier' element={
-              <Stuart380 
+              <MassMutual 
               name='Mass Mutual @ Fan Pier'
               city='Boston'
               state='Massachusetts'
@@ -236,13 +232,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/pier-4' element={
-              <Stuart380 
+              <Pier4 
               name='Pier 4'
               city='Boston'
               state='Massachusetts'
@@ -251,14 +243,10 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/twenty-two-liberty-@-fan-pier' element={
-              <Stuart380 
-              name='Twenty Two Lberty @ Pier'
+              <Liberty22 
+              name='Twenty Two Liberty @ Fan Pier'
               city='Boston'
               state='Massachusetts'
               year='2017'
@@ -266,13 +254,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/150-2nd-street' element={
-              <Stuart380 
+              <Second150 
               name='150 2nd Street'
               city='Cambridge'
               state='Massachusetts'
@@ -281,13 +265,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/290/250-binney-street' element={
-              <Stuart380 
+              <Binney 
               name='290/250 Binney Street'
               city='Cambridge'
               state='Massachusetts'
@@ -296,13 +276,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/google-headquarters' element={
-              <Stuart380 
+              <Google 
               name='Google Headquarters'
               city='Cambridge'
               state='Massachusetts'
@@ -311,13 +287,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path="/mit-site-5" element={
-              <Stuart380 
+              <MIT 
               name='MIT Site 5'
               city='Cambridge'
               state='Massachusetts'
@@ -326,13 +298,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/ragon-institute-ii' element={
-              <Stuart380 
+              <Ragon 
               name='Ragon Institute II'
               city='Cambridge'
               state='Massachusetts'
@@ -341,13 +309,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/uri-college-of-engineering' element={
-              <Stuart380 
+              <URIEngn 
               name='URI College of Engineering'
               city='South Kingston'
               state='Rhode Island'
@@ -356,13 +320,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/danbury-hospital' element={
-              <Stuart380 
+              <Danbury 
               name='Danbury Hospital'
               city='Danbury'
               state='Connecticut'
@@ -371,13 +331,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/quinnipiac-university-wellness-center' element={
-              <Stuart380 
+              <Wellness 
               name='Quinnipiac University Wellness Center'
               city='Hamden'
               state='CT'
@@ -386,13 +342,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/foxwoods-resort-hotel-&-casino' element={
-              <Stuart380 
+              <Foxwoods 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -401,13 +353,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/mgm-grand-at-foxwoods' element={
-              <Stuart380 
+              <MGM 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -416,13 +364,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/100-college-st' element={
-              <Stuart380 
+              <College100 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -431,13 +375,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/101-college-st' element={
-              <Stuart380 
+              <College101 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -446,13 +386,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/55-park-street' element={
-              <Stuart380 
+              <Park55 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -461,13 +397,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/knights-of-columbus' element={
-              <Stuart380 
+              <Knights 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -476,13 +408,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/yale-new-haven-hospital' element={
-              <Stuart380 
+              <YaleNewHaven 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -491,13 +419,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path="/yale-peabody-museum" element={
-              <Stuart380 
+              <Peabody 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -506,13 +430,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/yale-smilow-cancer-center' element={
-              <Stuart380 
+              <Smilow 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -521,13 +441,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/norwalk-hospital' element={
-              <Stuart380 
+              <Norwalk 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -536,13 +452,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/fenway-center-phase-ii' element={
-              <Stuart380 
+              <Fenway 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -551,13 +463,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/brown-university-school-of-engineering' element={
-              <Stuart380 
+              <BrownEngn 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -566,13 +474,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/providence-college-friar-center' element={
-              <Stuart380 
+              <PCFriar 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -581,13 +485,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/providence-college-school-of-business' element={
-              <Stuart380 
+              <PCBusiness 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -596,13 +496,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/providence-place-mall' element={
-              <Stuart380 
+              <ProvPlace 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -611,13 +507,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/south-street-landing' element={
-              <Stuart380 
+              <SSL 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -626,13 +518,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path="/the-dunkin'-donuts-center" element={
-              <Stuart380 
+              <Dunk 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -641,13 +529,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/women-&-infants-hospital' element={
-              <Stuart380 
+              <WomenInfants 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -656,13 +540,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/bryant-university-george-e.-bello-center' element={
-              <Stuart380 
+              <BryantBello 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -671,13 +551,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path="/stamford-hospital" element={
-              <Stuart380 
+              <Stamford 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -686,13 +562,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/uconn-gant-renovation' element={
-              <Stuart380 
+              <Gant 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -701,13 +573,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/uconn-stem-research-center' element={
-              <Stuart380 
+              <Stem 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -716,13 +584,9 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/mohegan-sun-earth-hotel' element={
-              <Stuart380 
+              <Earth 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
@@ -731,40 +595,22 @@ function App() {
               arch='CBT Architects'
               owner='Turner'
               contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/mohegan-sun-tower-hotel' element={
-              <Stuart380 
+              <Tower 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
               year='2017'
               type='Office'
-              arch='CBT Architects'
-              owner='Turner'
-              contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
             <Route path='/white-plains-hospital-medical-center' element={
-              <Stuart380 
+              <WhitePlains 
               name='380 Stuart Street'
               city='Boston'
               state='Massachusetts'
               year='2017'
               type='Office'
-              arch='CBT Architects'
-              owner='Turner'
-              contr='Contractor'
-              desc='Situated in the center of Boston’s Back Bay neighborhood, 380 Stuart is an intelligently designed 
-              642,000 SF, 28-story office tower with private terraces, an indoor-outdoor roof deck, elevated 
-              amenities, integrated,  touchless building systems and enhanced health and well-being measures 
-              tailored to meet your needs. '
               />}/>
           </Routes >
         </BrowserRouter>

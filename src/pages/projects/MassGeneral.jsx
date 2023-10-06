@@ -58,9 +58,8 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          {city}, {state} <br />
-          {year} <br />
-          {type} <br />
+          Boston, Massachusetts <br />
+          Healthcare <br />
         </div>
       </div>
         <div className='font-semi text-3xl text-center pt-6'>

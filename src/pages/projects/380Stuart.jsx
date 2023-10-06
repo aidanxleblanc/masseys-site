@@ -55,12 +55,10 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
       <div className='flex'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
-          Year: <br />
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
           Boston, Massachusetts <br />
-          In-Progress <br />
           Office <br />
         </div>
       </div>

@@ -14,7 +14,7 @@ import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.
 
 const images = [img1, img2, img3, img4, img5];
 
-const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
+const Liberty22 = ({ url, name, city, state}) => {
   // Create a state variable to keep track of the currently displayed image index
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -48,19 +48,18 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
         </div>
       </div>
-      <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
-      </div>
-      <div className='flex'>
+      {/* <div className='flex justify-center p-6'>
+        <h1 className='font-thin text-2xl text-center w-2/3'>
+        </h1>
+      </div> */}
+      <div className='flex mt-6'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
-          Year: <br />
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          {city}, {state} <br />
-          {year} <br />
-          {type} <br />
+          Boston, Massachusetts <br />
+          Residential <br />
         </div>
       </div>
         <div className='font-semi text-3xl text-center pt-6'>
@@ -92,4 +91,4 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   )
 }
 
-export default IndividualProject
+export default Liberty22
