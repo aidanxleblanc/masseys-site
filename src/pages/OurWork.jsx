@@ -1,5 +1,6 @@
 import React from 'react'
 import TitleHeading from '../components/TitleHeading'
+import Footer from '../components/Footer'
 
 const OurWork = () => {
   return (
@@ -11,6 +12,8 @@ const OurWork = () => {
          <div className='text-7xl whitespace-nowrap pr-8 text-center'>Top 15</div>
          <div className='text-3xl text-center mt-5'>Ranked Glazier in the <br />Nation by Glass Magazine</div>
         </div>
+        <img src={require('../images/50yrs.png')} 
+             className='w-1/7 object-contain'/>
           
           <p className='text-2xl text-center'>
           We are experts in our craft and hold ourselves to the 
@@ -26,12 +29,15 @@ const OurWork = () => {
       <div>
 
       </div>
-      <div className='absolute'>
-        <img src={require('../images/380stuart.jpeg')} 
+      <div className='bg-cover'
+      style={{ backgroundImage: `url(${'../images/380stuart.jpeg'})` }}>
+        <img src={require('../images/wwd.png')} 
           className=''/>
-        <p className='relative'>Massey’s has specialized in glazing and façades for over 50 years, boasting a multitude
-        of top-of-the-line glass and panel projects, such as</p>
       </div>
+      <div className='mt-1'>
+        <Footer />
+      </div>
+      
     </div>
   )
 }

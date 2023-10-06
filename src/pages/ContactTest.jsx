@@ -42,7 +42,7 @@ const Contact = () => {
     <div className='relative top-0'>
         <Navbar />
     <div className="max-w-md mx-auto flex flex-col p-4 font-display">
-      <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
+      <h2 className="text-2xl font-bold text-center text-navy mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
           <label htmlFor="name" className="block text-gray-600">Name</label>
@@ -52,7 +52,7 @@ const Contact = () => {
             name="name"
             value={formData.name}
             onChange={handleChange}
-            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-indigo-300"
+            className="w-full px-4 py-2 border rounded-md focus:outline-none focus:ring focus:ring-navy-300"
             required
           />
         </div>
@@ -103,12 +103,16 @@ const Contact = () => {
             required
           ></textarea>
         </div>
+        <div className='justify-center'>
         <button
           type="submit"
-          className="bg-indigo-500 text-white px-4 py-2 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-300"
+          className="bg-navy text-white px-4 py-2 rounded-md hover:bg-indigo-600 focus:outline-none focus:ring focus:ring-indigo-300"
         >
           Submit
         </button>
+          
+        </div>
+        
       </form>
       <div>
         <br />

@@ -27,7 +27,7 @@ const MainDesc = () => {
             <br></br>
             We are proud of our past and confident of our future. You 
             can build on our experience and build with confidence.</h1>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/50yrs.png')} 
+            <img src={require('../images/50yrs.png')} 
              className='w-1/4 object-contain'/>
     </div>
   )

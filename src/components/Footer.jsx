@@ -42,7 +42,7 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <h1 className='text-white text-center text-sm mt-4'>Copyright © 2023 Massey's Glass  |  Privacy Policy  |  All Rights Reserved</h1>
+      <h1 className='text-white text-center font-display text-sm mt-4'>Copyright © 2023 Massey's Glass  |  Privacy Policy  |  All Rights Reserved</h1>
     </div>
   )
 }
