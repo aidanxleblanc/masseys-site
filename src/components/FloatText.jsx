@@ -1,5 +1,5 @@
 import React from 'react'
-import '/Users/aidanleblanc/Desktop/masseys-site/src/styles.css'
+import '../styles.css'
 
 const FloatText = () => {
   return (

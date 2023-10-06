@@ -4,7 +4,7 @@ const FeatProj = ({name}) => {
   return (
     <div className='flex font-display px-12'>
         <div className='w-2/3'>
-            <img src={require('/Users/aidanleblanc/Desktop/masseys-site/src/images/pier4_cropped.png')} />
+            <img src={require('../images/pier4_cropped.png')} />
         </div>
         <div className='flex flex-col justify-center text-navy p-5 w-1/3'>
             <h1 className='font-semi text-4xl'>888 Boylston Street</h1>

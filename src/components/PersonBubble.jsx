@@ -4,7 +4,7 @@ const PersonBubble = ({name, pos, imageUrl}) => {
   return (
     <div className='w-1/7'>
         <div className='flex flex-col rounded-full overflow-hidden'>
-            <img src={require("/Users/aidanleblanc/Desktop/masseys-site/src/images/bobbypic.jpg")} />
+            <img src={require("../images/bobbypic.jpg")} />
         </div>
         <div className='font-display text-navy mt-4'>
             <h1 className='text-center font-bold text-xl'>{name}</h1>
