@@ -19,11 +19,11 @@ const HomeNavbar = ({absolute, color}) => {
         </a>
       </div>
         <div className='flex pt-8 text-center text-base justify-center'>
-            <a href="/projects"><DropdownMenu name="Projects" items={['Featured']}/></a>
-            <DropdownMenu name="Who We Are" items={['Our Story', 'Our Mission',]} />
-            <DropdownMenu name="What We Do" items={['Our Work', 'Our Team']}/>
+        <a href="/projects"><DropdownMenu name="Projects" items={['Featured']}/></a>
+            <DropdownMenu name="Who We Are" items={['Our Story', 'Our Team',]} />
+            <DropdownMenu name="What We Do" items={['Our Work', 'Our Mission']}/>
             <a href="/careers"><DropdownMenu name="Careers" items={[]}/></a>
-            <a href="/contact"><DropdownMenu name="Contact" items={[]}/></a>     
+            <a href="/contact"><DropdownMenu name="Contact" items={[]}/></a>       
         </div>
     </div>
   )

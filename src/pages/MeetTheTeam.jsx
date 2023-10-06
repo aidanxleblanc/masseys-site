@@ -17,7 +17,7 @@ const MeetTheTeam = () => {
         <Navbar color='navy'/>
         <PageTitle title='Meet the Team'/>
         <div className='flex justify-center space-x-16 pt-12'>
-            <PersonBubbleBobby name='Robert Massey Jr.' pos='President & CEO'/>
+            <PersonBubbleBobby name='Robert J. Massey Jr.' pos='President & CEO'/>
             <PersonBubbleDeLise name='Philip DeLise' pos='Chief Operating Officer'/>
             <PersonBubbleRich name='Rich Ezold Jr.' pos='Chief Administrative Officer'/>
             <PersonBubbleCriscuolo name='Joseph Criscuolo' pos='Chief Financial Officer'/>

@@ -5,8 +5,8 @@ const MissionBanner = ({title, desc}) => {
     <div className='flex justify-center space-x-8 mt-8'>
         <div className='w-4/5 flex text-center justify-center items-center bg-navy font-display text-white'>
             <div className='absolute px-16 text-center w-2/3' style={{ zIndex: 1 }}>
-                <h1 className='font-bold text-7xl'> {title} </h1>
-                <h1 className='mt-6 text-2xl'> {desc} </h1> 
+            <h1 className='font-bold text-5xl'> {title} </h1>
+                <h1 className='mt-6 text-xl'> {desc} </h1> 
             </div>
             
             <img src={require("../images/shovels.png")} 

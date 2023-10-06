@@ -6,13 +6,14 @@ import PageTitle from '../../components/PageTitle';
 import IndvProjectSquare from '../../components/IndvProjectSquare';
 import Footer from '../../components/Footer';
 
-import img1 from "../../images/380stuart.jpeg";
-import img2 from "../../images/88seaport.jpeg";
-import img3 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img4 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
-import img5 from "/Users/aidanleblanc/Desktop/masseys-site/src/images/380stuart.jpeg";
+import img1 from "./prjimg/380Stuart_1.png";
+// import img2 from "./prjimg/380Stuart_2.png";
+// import img3 from "./prjimg/380Stuart_3.png";
 
-const images = [img1, img2, img3, img4, img5];
+const images = [img1, 
+  // img2, img3
+
+];
 
 const IndividualProject = ({ url, desc, name, city, state, year, type, arch, owner, contr }) => {
   // Create a state variable to keep track of the currently displayed image index
@@ -49,27 +50,21 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
       </div>
       <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
+        <h1 className='font-thin text-xl text-center w-2/3'>{desc}</h1>
       </div>
       <div className='flex'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
           Year: <br />
           Type: <br />
-          Architect: <br />
-          Owner/Developer: <br />
-          General Contractor: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          {city}, {state} <br />
-          {year} <br />
-          {type} <br />
-          {arch} <br />
-          {owner} <br />
-          {contr} <br />
+          Boston, Massachusetts <br />
+          In-Progress <br />
+          Office <br />
         </div>
       </div>
-        <div className='font-semi text-3xl text-center pt-6'>
+        <div className='font-semi text-xl text-center pt-6'>
             <h1>More {state} Projects</h1>
         </div>
         <div className='flex p-6 space-x-4'>

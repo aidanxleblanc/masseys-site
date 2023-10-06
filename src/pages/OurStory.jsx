@@ -11,6 +11,7 @@ import Timeline2012 from '../components/Timeline2012'
 import Timeline2014 from '../components/Timeline2014'
 import Timeline2016 from '../components/Timeline2016'
 import Timeline2023 from '../components/Timeline2023'
+import Footer from '../components/Footer'
 
 
 const OurHistory = () => {
@@ -74,6 +75,7 @@ const OurHistory = () => {
             loc='Franklin, MA' 
             bold="Massey's celebrates 50 years"
             body='and sets up shop at its new Franklin office'/>
+        <Footer />
     </div>
   )
 }

@@ -33,8 +33,15 @@ const Careers = () => {
         desc = "As a CNC/CAD Programmer at Massey's, your role is pivotal in transforming design concepts into high-quality glass products. 
         This position fuses creativity, technical expertise, and precision to realize client visions. Responsibilities encompass CAD design, collaborating
          with architects and designers to create precise glass product drawings, and ensuring compliance with industry standards. You'll also engage in CNC 
-         programming, crafting programs for cutting, shaping, and finishing glass components efficiently. Quality assurance is paramount, involving regular
-          checks to meet stringent quality standards and making necessary adjustments for product integrity." />
+         programming, crafting programs for cutting, shaping, and finishing glass components efficiently." />
+          <div className='text-center text-2xl mt-8'>
+          Interested in these positions? <br /> 
+          Email your resume to 
+          <a href="mailto:hr@masseysglass.com">
+          <span className='font-bold'> hr@masseysglass.com </span>
+          </a>
+          here.
+          </div>
         <div className='mt-8'>
           <Footer />
         </div>

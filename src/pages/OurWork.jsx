@@ -6,14 +6,32 @@ const OurWork = () => {
     <div>
       <TitleHeading title="Our Work"/>
       <div className='flex p-6 items-center font-display font-bold text-navy'>
-        <div className='text-4xl text-center'>
-        We are experts in our craft and hold ourselves to the highest standards throughout each project.
+      <div className='flex items-center p-4 w-full justify-around'>
+        <div>
+         <div className='text-7xl whitespace-nowrap pr-8 text-center'>Top 15</div>
+         <div className='text-3xl text-center mt-5'>Ranked Glazier in the <br />Nation by Glass Magazine</div>
         </div>
-        <div className='flex items-center p-4 justify-center'>
-          <div className='text-8xl whitespace-nowrap'>Top 15</div>
-          <div className='text-4xl text-center'>Ranked Glazier in the <br />Nation by Glass Magazine</div>
+          
+          <p className='text-2xl text-center'>
+          We are experts in our craft and hold ourselves to the 
+          
+          <br /> 
+          highest standards throughout each project.
+
+          </p>
+          
         </div>
+        
       </div> 
+      <div>
+
+      </div>
+      <div className='absolute'>
+        <img src={require('../images/380stuart.jpeg')} 
+          className=''/>
+        <p className='relative'>Massey’s has specialized in glazing and façades for over 50 years, boasting a multitude
+        of top-of-the-line glass and panel projects, such as</p>
+      </div>
     </div>
   )
 }

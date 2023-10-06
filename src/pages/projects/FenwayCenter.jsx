@@ -56,17 +56,11 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
           Location: <br />
           Year: <br />
           Type: <br />
-          Architect: <br />
-          Owner/Developer: <br />
-          General Contractor: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
           {city}, {state} <br />
           {year} <br />
           {type} <br />
-          {arch} <br />
-          {owner} <br />
-          {contr} <br />
         </div>
       </div>
         <div className='font-semi text-3xl text-center pt-6'>

@@ -15,6 +15,7 @@ const Projects = () => {
       <PageTitle title='Projects'/> 
       <div>
       </div>
+      
       <div className='flex justify-center space-x-4 mt-4'>
         <ProjectSquare imageUrl={require('../images/105westst.png')}
           name='105 West 1st Street' loc='Boston, MA'/>
@@ -24,7 +25,7 @@ const Projects = () => {
           name='88 Seaport' loc='Boston, MA'/>
       </div>
       <div className='flex justify-center space-x-4 mt-4'>
-        <ProjectSquare imageUrl={require('../images/888boylstonalt.jpeg')}
+        <ProjectSquare imageUrl={require('../images/888boylstonshot.png')}
           name='888 Boylston Street' loc='Boston, MA'/>
         <ProjectSquare imageUrl={require('../images/backbaysouth.jpeg')}
           name='Back Bay South End Gateway' loc='Boston, MA'/>

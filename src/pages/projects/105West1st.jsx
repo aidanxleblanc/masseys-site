@@ -29,7 +29,7 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
   };
 
   return (
-    <div className='font-display text-navy text-xl justify-center'>
+    <div className='font-display text-navy justify-center'>
       <Navbar color='navy' />
       <PageTitle title={name} />
       <div className='flex justify-center'>
@@ -49,24 +49,18 @@ const IndividualProject = ({ url, desc, name, city, state, year, type, arch, own
         </div>
       </div>
       <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>{desc}</h1>
+        <h1 className='font-thin text-xl text-center w-2/3'>{desc}</h1>
       </div>
       <div className='flex'>
-        <div className='w-1/2 text-right font-semi mr-1'>
+        <div className='w-1/2 text-right text-xl font-semi mr-1'>
           Location: <br />
           Year: <br />
           Type: <br />
-          Architect: <br />
-          Owner/Developer: <br />
-          General Contractor: <br />
         </div>
-        <div className='w-1/2 text-left ml-1'>
-          {city}, {state} <br />
-          {year} <br />
-          {type} <br />
-          {arch} <br />
-          {owner} <br />
-          {contr} <br />
+        <div className='w-1/2 text-left text-xl ml-1'>
+          Boston, Massachusetts <br />
+          2022 <br />
+          Office <br />
         </div>
       </div>
         <div className='font-semi text-3xl text-center pt-6'>
