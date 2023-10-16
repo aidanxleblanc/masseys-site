@@ -11,7 +11,7 @@ const Careers = () => {
     <div className='flex flex-col font-display text-navy'>
         <TitleHeading title='Careers'/>
         <CrewBanner />
-        <div className='text-center font-semi text-4xl pt-8'>
+        <div className='text-center font-semi lg:text-4xl pt-8'>
           <h1>Available Positions</h1>
         </div>
         <PositionBannerRight 

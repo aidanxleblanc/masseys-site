@@ -13,12 +13,12 @@ const HomeNavbar = ({absolute, color}) => {
 
   return (
     <div className = {navClassName}>
-      <div className='flex items-top p-6 w-1/6'>
+      <div className='flex md:flex items-top p-6 lg:w-1/6 sm:w-1/4'>
         <a href="/home">
           <HomeLogo />
         </a>
       </div>
-        <div className='flex pt-8 text-center text-base justify-center'>
+        <div className='flex pt-8 text-center lg:text-base sm:text-sm justify-center'>
         <a href="/projects"><DropdownMenu name="Projects" items={['Featured']}/></a>
             <DropdownMenu name="Who We Are" items={['Our Story', 'Our Team',]} />
             <DropdownMenu name="What We Do" items={['Our Work', 'Our Mission']}/>
