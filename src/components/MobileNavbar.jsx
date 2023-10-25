@@ -1,11 +1,11 @@
 import React from 'react'
 import DropdownMenu from './DropdownMenu';
-import HomeLogo from './HomeLogo';
+import Logo from './Logo';
 import MobileDropdown from './MobileDropdown';
 
 const HomeNavbar = ({absolute, color}) => {
 
-  let navClassName = 'flex justify-between w-full top-0 text-' + color;
+  let navClassName = 'flex justify-between w-full top-0 w-full text-' + color;
 
 
   if (absolute) {
@@ -14,9 +14,9 @@ const HomeNavbar = ({absolute, color}) => {
 
   return (
     <div className = {navClassName}>
-      <div className='flex items-top p-6 w-1/2'>
+      <div className='flex items-top p-6 w-1/5'>
         <a href="/home">
-          <HomeLogo />
+          <Logo />
         </a>
       </div>
       <div className='flex w-1/4 items-center justify-center'>
