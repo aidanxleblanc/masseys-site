@@ -6,8 +6,8 @@ import url from '../images/mobilehomedark.jpg'
 
 const Header = () => {
   return (
-    <div className='absolute text-center h-full bg-cover' style={{backgroundImage: `url(${url})`}}>
-      {/* <img src={require('../images/mobilehomedark.jpg')}/> */}
+    <div className='flex flex-col'>
+    <div className='flex flex-col text-center h-4/5 bg-cover' style={{backgroundImage: `url(${url})`}}>
       <div className='flex flex-col'>
           <HomeNavbar color='white'/> 
           <div className="text-center items-center font-display font-semi"
@@ -17,11 +17,16 @@ const Header = () => {
                   into the future <br />
                   of <span className='text-gold'>eco-sustainable <br /></span>
                   building facades.</h1>
-          </div>  
-      </div>  
-    <div>
+          </div>
+          <div className='inset-5 pt-6 px-4'>
+            <img src={require('../images/380stuart.jpeg')}/> 
+          </div>
+      </div>
+      <div className='flex flex-col justify-center text-center font-display text-white'>
+        <h1 className='text-3xl pt-6 pb-6'>Build with confidence.</h1>
       </div>
     </div>
+   </div>
   );
 };
 

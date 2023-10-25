@@ -3,12 +3,9 @@ import Logo from './Logo.jsx'
 
 const Footer = () => {
   return (
-    <div className='items-center justify-center bg-dknavy p-5'>
-      <div className='flex justify-around'>
-        <div className='flex items-center p-3 w-1/17'>
-          <Logo />
-        </div>
-        <div className='flex w-1/2 text-white justify-between items-center'>
+    <div className='flex flex-col items-center justify-center bg-dknavy p-2 text-sm text-center'>
+      <div className='flex justify-center'>
+        <div className='flex text-white justify-between items-center text-xs/6 pt-2 space-x-1'>
           <div className='font-display'>
             <span className='font-bold'>Headquarters <br /></span>
             734 East Main Street <br />
@@ -30,19 +27,8 @@ const Footer = () => {
             <br />
           </div>
         </div>
-        <div className='flex items-center w-1/6'>
-          <div className='p-3'>
-            <img src={require('../images/fmapproved.jpeg')} />
-          </div>
-          <div className='p-3'>
-            <img src={require('../images/cert.png')} />
-          </div>
-          <div className='p-3'>
-            <img src={require('../images/fcia.jpeg')} />
-          </div>
-        </div>
       </div>
-      <h1 className='text-white text-center font-display text-sm mt-4'>Copyright © 2023 Massey's Glass  |  Privacy Policy  |  All Rights Reserved</h1>
+      <h1 className='text-white text-center font-display text-xs mt-4'>Copyright © 2023 Massey's Glass  |  Privacy Policy  |  All Rights Reserved</h1>
     </div>
   )
 }
