@@ -5,6 +5,8 @@ import Timeline1973 from '../components/Timeline1973'
 import Timeline1978 from '../components/Timeline1978'
 import Timeline1989 from '../components/Timeline1989'
 import Timeline1991 from '../components/Timeline1991'
+import Timeline1998 from '../components/Timeline1998'
+import Timeline2006 from '../components/Timeline2006'
 import Timeline2008 from '../components/Timeline2008'
 import Timeline2010 from '../components/Timeline2010'
 import Timeline2012 from '../components/Timeline2012'
@@ -31,7 +33,8 @@ const OurHistory = () => {
             year='1978' 
             loc='Branford, CT' 
             bold="Massey's opens its first office" 
-            body='and begins work on larger commercial projects'/>
+            body='Massey moves to its new and current headquarters on North Main Street in Branford, 
+            this location would have future expansion in 1986, 1997, 1999, 2008, and 2014 builds new facility on Baldwin Drive'/>
         <Timeline1989 
             year='1989' 
             loc='New Haven, CT' 
@@ -42,8 +45,18 @@ const OurHistory = () => {
             year='1991' 
             loc='Branford, CT' 
             bold="Casino work" 
-            body="becomes a new Massey's specialty, beginning with Mohegan Sun
-            and many shortly after"/>
+            body="becomes a new Massey's specialty, beginning with Foxwoods Casino and Mohegan Sun
+            shortly after"/>
+        <Timeline1998
+            year='1998' 
+            loc='Providence, RI' 
+            bold="Massey's opens their Providence office" 
+            body=""/>
+        <Timeline2006
+            year='2006' 
+            loc='Branford, CT' 
+            bold="Massey's partners with United Architectural Metals" 
+            body='for specialty unitized glazing projects'/>
         <Timeline2008
             year='2008' 
             loc='Branford, CT' 
@@ -69,7 +82,7 @@ const OurHistory = () => {
             year='2016' 
             loc='Branford, CT' 
             bold="Massey's partners with Fabbrica" 
-            body=''/>
+            body='for larger custom architectural and unitized facades across the Northeast'/>
         <Timeline2023 
             year='2023' 
             loc='Franklin, MA' 

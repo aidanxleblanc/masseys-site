@@ -24,7 +24,7 @@ const DesktopProjects = () => {
         <ProjectSquare imageUrl={require('../images/budentalmed.jpeg')}
           name='Boston University School of Dental Medicine' loc='Boston, MA'/>
         <ProjectSquare imageUrl={require('../images/brighamwomens.jpeg')}
-          name="Brigham & Women's Hospital" loc='Boston, MA'/>
+          name="Brigham & Women's Faulkner Hospital" loc='Boston, MA'/>
         <ProjectSquare imageUrl={require('../images/bulfinchxing.png')}
           name='Bulfinch Crossing' loc='Boston, MA'/>
       </div>

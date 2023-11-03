@@ -31,7 +31,7 @@ const OurWork = () => {
       </div>
       <div className='bg-cover'
       style={{ backgroundImage: `url(${'../images/380stuart.jpeg'})` }}>
-        <img src={require('../images/wwd.png')} 
+        <img src={require('../images/whatwedo-new2.png')} 
           className=''/>
       </div>
       <div className='mt-1'>

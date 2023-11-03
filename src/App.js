@@ -157,9 +157,9 @@ function App() {
               owner='Turner'
               contr='Contractor'
               />}/>
-            <Route path="/brigham-&-women's-hospital" element={
+            <Route path="/brigham-&-women's-faulkner-hospital" element={
               <Brigham 
-              name="Brigham & Women's Hospital"
+              name="Brigham & Women's Faulkner Hospital"
               city='Boston'
               state='Massachusetts'
               year='2017'
