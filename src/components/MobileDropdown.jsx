@@ -43,6 +43,9 @@ const MobileDropdown = () => {
               <li><a href="/projects">Projects</a></li>
             </div>
             <div className='p-2'>
+              <li><a href="/featured">Featured Projects</a></li>
+            </div>
+            <div className='p-2'>
               <li><a href="/our-story">Our Story</a></li>
             </div>
             <div className='p-2'>

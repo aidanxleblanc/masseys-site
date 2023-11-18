@@ -186,7 +186,7 @@ const MobileTimeline = () => {
         {/* 2016 */}
         <div className='flex justify-center space-x-4 pt-8'>
             <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
-                <img src={require('./compimgs/88seaport.jpeg')} class='w-full h-full object-cover'/>
+                <img src={require('./compimgs/fabbrica.jpeg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
                 <div class='text-5xl font-bold'>2016</div>
