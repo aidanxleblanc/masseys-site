@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const MobileDropdown = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -10,6 +10,10 @@ const MobileDropdown = () => {
   const closeMenu = () => {
     setIsOpen(false);
   };
+
+  useEffect(() => {
+    setIsOpen(false);
+  }, []);
 
   const menuStyle = {
     opacity: isOpen ? 1 : 0,
@@ -25,6 +29,7 @@ const MobileDropdown = () => {
       >
         ☰
       </button>
+      {isOpen && (
       <div style={menuStyle} className={`fixed inset-0 text-navy font-display bg-gray-900 bg-opacity-75 z-40 flex items-center justify-center`}>
         <div className="menu-box p-8 bg-white rounded-lg z-50 relative">
           <button
@@ -58,6 +63,7 @@ const MobileDropdown = () => {
           </ul>
         </div>
       </div>
+      )}
     </div>
   );
 };

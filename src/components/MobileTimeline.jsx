@@ -72,7 +72,7 @@ const MobileTimeline = () => {
         <div className='text-center p-4'>
             <div>
                 Casino work becomes a new Massey's specialty, beginning with Foxwoods Casino and Mohegan Sun
-            shortly after
+            shortly after.
             </div>
         </div>
 
@@ -89,7 +89,7 @@ const MobileTimeline = () => {
             </div>
         </div>
         <div className='text-center p-4'>
-            <div>Massey's opens their Providence office</div>
+            <div>Massey's opens their Providence office.</div>
         </div>
 
         <div className="border-t border-sky-950 w-full"></div>
@@ -159,7 +159,7 @@ const MobileTimeline = () => {
             </div>
         </div>
         <div className='text-center p-4'>
-            <div> The Foxborough office opens its doors for the first time</div>
+            <div> The Foxborough office opens its doors for the first time.</div>
         </div>
 
         <div className="border-t border-sky-950 w-full"></div>
