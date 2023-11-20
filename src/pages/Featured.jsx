@@ -1,13 +1,16 @@
 import React from 'react'
 import Media from 'react-responsive'
+
 import Navbar from '../components/Navbar'
-import MobileNavbar from '../components/MobileNavbar'
-import MobileFooter from '../components/MobileFooter'
-import MobilePageTitle from '../components/MobilePageTitle'
 import PageTitle from '../components/PageTitle'
 import Footer from '../components/Footer'
+
 import DesktopFeatured from '../components/DesktopFeatured'
-import MobileFeatured from '../components/MobileFeatured'
+
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobilePageTitle from '../components/mobile/MobilePageTitle'
+import MobileFooter from '../components/mobile/MobileFooter'
+import MobileFeatured from '../components/mobile/MobileFeatured'
 
 
 const FeaturedProjects = () => {

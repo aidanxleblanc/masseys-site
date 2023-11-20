@@ -1,6 +1,7 @@
 import React from 'react'
-import MobileNavbar from '../components/MobileNavbar'
-import MobileFooter from '../components/MobileFooter'
+
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobileFooter from '../components/mobile/MobileFooter'
 
 const ErrorPage = () => {
   return (

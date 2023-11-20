@@ -1,11 +1,13 @@
 import React from 'react';
+import Media from 'react-responsive';
+
 import Header from '../components/Header.jsx';
 import Body from '../components/Body.jsx';
 import Footer from '../components/Footer.jsx';
-import Media from 'react-responsive';
-import MobileHeader from '../components/MobileHeader.jsx';
-import MobileMainDesc from '../components/MobileMainDesc.jsx';
-import MobileFooter from '../components/MobileFooter.jsx';
+
+import MobileHeader from '../components/mobile/MobileHeader.jsx';
+import MobileMainDesc from '../components/mobile/MobileMainDesc.jsx';
+import MobileFooter from '../components/mobile/MobileFooter.jsx';
 
 const HomePage = () => {
   return (

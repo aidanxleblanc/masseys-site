@@ -1,21 +1,18 @@
 import React from 'react'
-import PageTitle from '../components/PageTitle'
 import Media from 'react-responsive'
+
 import Navbar from '../components/Navbar'
-import MobileNavbar from '../components/MobileNavbar'
-import MobileTeam from '../components/MobileTeam'
-import MobileFooter from '../components/MobileFooter'
-import MobilePageTitle from '../components/MobilePageTitle'
-import PersonBubbleBobby from '../components/PersonBubbleBobby'
-import PersonBubbleMcCauley from '../components/PersonBubbleMcCauley'
-import PersonBubbleCriscuolo from '../components/PersonBubbleCriscuolo'
-import PersonBubbleRich from '../components/PersonBubbleRich'
-import PersonBubbleEssig from '../components/PersonBubbleEssig'
-import PersonBubbleVailette from '../components/PersonBubbleVailette'
-import PersonBubbleDeLise from '../components/PersonBubbleDeLise'
-import PersonBubbleJR from '../components/PersonBubbleJR'
+import PageTitle from '../components/PageTitle'
 import Footer from '../components/Footer'
+
 import DesktopTeam from '../components/DesktopTeam'
+
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobilePageTitle from '../components/mobile/MobilePageTitle'
+import MobileFooter from '../components/mobile/MobileFooter'
+import MobileTeam from '../components/mobile/MobileTeam'
+
+
 
 const MeetTheTeam = () => {
   return (

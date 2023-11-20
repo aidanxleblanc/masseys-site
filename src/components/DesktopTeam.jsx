@@ -1,12 +1,12 @@
 import React from 'react'
-import PersonBubbleBobby from '../components/PersonBubbleBobby'
-import PersonBubbleMcCauley from '../components/PersonBubbleMcCauley'
-import PersonBubbleCriscuolo from '../components/PersonBubbleCriscuolo'
-import PersonBubbleRich from '../components/PersonBubbleRich'
-import PersonBubbleEssig from '../components/PersonBubbleEssig'
-import PersonBubbleVailette from '../components/PersonBubbleVailette'
-import PersonBubbleDeLise from '../components/PersonBubbleDeLise'
-import PersonBubbleJR from '../components/PersonBubbleJR'
+import PersonBubbleBobby from '../components/team/PersonBubbleBobby'
+import PersonBubbleMcCauley from '../components/team/PersonBubbleMcCauley'
+import PersonBubbleCriscuolo from '../components/team/PersonBubbleCriscuolo'
+import PersonBubbleRich from '../components/team/PersonBubbleRich'
+import PersonBubbleEssig from '../components/team/PersonBubbleEssig'
+import PersonBubbleVailette from '../components/team/PersonBubbleVailette'
+import PersonBubbleDeLise from '../components/team/PersonBubbleDeLise'
+import PersonBubbleJR from '../components/team/PersonBubbleJR'
 
 const DesktopTeam = () => {
   return (

@@ -1,13 +1,16 @@
 import React from 'react'
 import Media from 'react-responsive'
-import MobilePageTitle from '../components/MobilePageTitle'
+
 import Navbar from '../components/Navbar'
-import MobileNavbar from '../components/MobileNavbar'
-import MobileFooter from '../components/MobileFooter'
 import PageTitle from '../components/PageTitle'
 import Footer from '../components/Footer'
-import MobileTimeline from '../components/MobileTimeline'
+
 import DesktopTimeline from '../components/DesktopTimeline'
+
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobilePageTitle from '../components/mobile/MobilePageTitle'
+import MobileFooter from '../components/mobile/MobileFooter'
+import MobileTimeline from '../components/mobile/MobileTimeline'
 
 
 const OurHistory = () => {

@@ -1,14 +1,17 @@
 import React from 'react'
 import Media from 'react-responsive'
-import TitleHeading from '../components/TitleHeading'
-import MobilePageTitle from '../components/MobilePageTitle'
-import PageTitle from '../components/PageTitle'
+
 import Navbar from '../components/Navbar'
-import MobileNavbar from '../components/MobileNavbar'
-import MobileFooter from '../components/MobileFooter'
+import TitleHeading from '../components/TitleHeading'
 import Footer from '../components/Footer'
-import MobileWork from '../components/MobileWork'
+
 import DesktopWork from '../components/DesktopWork'
+
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobilePageTitle from '../components/mobile/MobilePageTitle'
+import MobileWork from '../components/mobile/MobileWork'
+import MobileFooter from '../components/mobile/MobileFooter'
+
 
 const OurWork = () => {
   return (

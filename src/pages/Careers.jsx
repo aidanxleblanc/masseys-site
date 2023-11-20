@@ -1,5 +1,6 @@
 import React from 'react'
 import Media from 'react-responsive'
+
 import ErrorPage from '../components/ErrorPage'
 import DesktopCareers from '../components/DesktopCareers'
 
