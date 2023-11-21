@@ -54,19 +54,18 @@ const MobileFeatured = () => {
             className='w-full h-full'/> 
         </div>
         <div className='flex flex-col justify-center text-navy p-4 text-center pb-8'>
-                    <h1 className='font-semi text-3xl'>Pier 4</h1>
+                    <h1 className='font-semi text-3xl'>Ragon Institute 2.0</h1>
                     <h2 className='font-semi text-lg pt-2'>
                     Mass General/MIT/Harvard
+                    <br />
                         Architect: <span className='font-regular'>Payette</span> <br />
-                        Contractor: <span className='font-regular'>Dimeo</span> <br /> 
+                        Contractor: <span className='font-regular'>Consigli</span> <br /> 
                     </h2>
                     <p className='whitespace-normal pt-4'>
-                        The Residences at Pier 4 is one of the most exciting residential
-                        projects to come to Boston’s burgeoning Seaport District.  This art deco
-                        building houses 100+ ultra luxury residential units with private outdoor
-                        spaces and top of the line finishes. Building amenities include a 24 hour
-                        concierge, state of the art gym, residence lounge, private dining, 
-                        underground parking and exclusive, landscaped outdoor spaces
+                    Scheduled for completion in Winter 2023-2024, the Ragon will be used for research
+                     of infectious diseases. The façade consists of unitized curtain wall system composed
+                      of glass and formed vertical metal panel fins. Podium includes wood curtain wall, 
+                      aluminum doors, glass doors and revolving doors.
                     </p>
         </div>
 
