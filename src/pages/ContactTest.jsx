@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
-import Navbar from '../components/HomeNavbar';
-import Footer from '../components/Footer';
+import Media from 'react-responsive'
+
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
+import MobileNavbar from '../components/mobile/MobileNavbar'
+import MobileFooter from '../components/mobile/MobileFooter'
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -40,7 +44,11 @@ const Contact = () => {
 
   return (
     <div className='relative top-0'>
-        <Navbar />
+        <Media query="(max-width: 768px)">
+        {isMobile => (
+          isMobile ? <MobileNavbar /> : <Navbar absolute={false} color='navy' />
+        )}
+      </Media>
     <div className="max-w-md mx-auto flex flex-col p-4 font-display">
       <h2 className="text-2xl font-bold text-center text-navy mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit}>
@@ -120,7 +128,11 @@ const Contact = () => {
         <br />
       </div>
     </div>
-    <Footer />
+    <Media query="(max-width: 768px)">
+        {isMobile => (
+          isMobile ? <MobileFooter /> : <Footer />
+        )}
+      </Media>
     </div>
   );
 };
