@@ -1,6 +1,6 @@
 import React from 'react'
 
-const PersonBubbleGagliardi = ({name, pos, imageUrl}) => {
+const PersonBubbleEssig = ({name, pos, imageUrl}) => {
   return (
     <div className='w-1/7'>
         <div className='flex flex-col rounded-full overflow-hidden'>
@@ -14,4 +14,4 @@ const PersonBubbleGagliardi = ({name, pos, imageUrl}) => {
   )
 }
 
-export default PersonBubbleGagliardi
+export default PersonBubbleEssig

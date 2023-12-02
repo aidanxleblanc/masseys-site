@@ -31,9 +31,13 @@ const MobileCareers = () => {
              className='w-1/8 object-contain'/>
           </div>
           <div>
-            <div className='flex bg-navy justify-center items-center'>
+              <div className='p-4'>
+              <div className='flex bg-navy justify-center items-center'>
               <h1 className='font-semi text-4xl text-center absolute text-white' style={{ zIndex: 1 }}>Project Manager</h1>
               <img src={require("../../images/masseysshop.jpg")} className='opacity-30 w-full h-full object-cover'/> 
+
+              </div>
+              
               
             </div>
               <p className='text-center p-4 pb-8'>Our project managers are experts in the field and play an instrumental role in each project's
@@ -43,10 +47,13 @@ const MobileCareers = () => {
               preferred qualifications for this role. Join us to lead impactful projects in a dynamic construction environment.</p>
           </div>
           <div>
+            <div className='p-4'>
             <div className='flex bg-navy justify-center items-center'>
               <h1 className='font-semi text-4xl text-center absolute text-white' style={{ zIndex: 1 }}>Project Estimator</h1>
               <img src={require("../../images/shoppic3.jpeg")} className='opacity-30 w-full h-full object-cover'/> 
               
+            </div>
+
             </div>
               <p className='text-center p-4 pb-8'>As a Project Estimator at Massey's, you will play a pivotal role in the successful execution of a wide range
          of projects. You will be responsible for accurately assessing project requirements, analyzing costs, and preparing 
@@ -55,9 +62,11 @@ const MobileCareers = () => {
          plate and glass industry.</p>
           </div>
           <div>
+            <div className='p-4'>
             <div className='flex bg-navy justify-center items-center'>
-              <h1 className='font-semi text-4xl text-center absolute text-white' style={{ zIndex: 1 }}>CNC/CAD Programmer</h1>
+              <h1 className='font-semi text-4xl text-center absolute text-white p-4' style={{ zIndex: 1 }}>CNC/CAD Programmer</h1>
               <img src={require("../../images/shoppic2.JPG")} className='opacity-30 w-full h-full object-cover'/> 
+            </div>
             </div>
               <p className='text-center p-4'>As a CNC/CAD Programmer at Massey's, your role is pivotal in transforming design concepts into high-quality glass products. 
         This position fuses creativity, technical expertise, and precision to realize client visions. Responsibilities encompass CAD design, collaborating

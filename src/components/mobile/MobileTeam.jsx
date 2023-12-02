@@ -39,7 +39,7 @@ const MobileTeam = () => {
             <h1 className='text-center text-lg'>Chief Financial Officer</h1>
         </div>
         </div>
-        <div className='w-3/5 pb-8'>
+        <div className='w-3/5'>
         <div className='flex flex-col rounded-full overflow-hidden'>
             <img src={require("../compimgs/essigss.png")} />
         </div>
@@ -47,12 +47,13 @@ const MobileTeam = () => {
             <h1 className='text-center font-bold text-xl'>Don Essig Jr.</h1>
             <h1 className='text-center text-lg'>Vice President of Operations</h1>
         </div>
+
         </div>
         <div className='w-3/5'>
         <div className='flex flex-col rounded-full overflow-hidden'>
             <img src={require("../compimgs/vailettenew.jpg")} />
         </div>
-        <div className='font-display text-navy mt-4'>
+        <div className='font-display text-navy '>
             <h1 className='text-center font-bold text-xl'>Chris Vailette Jr.</h1>
             <h1 className='text-center text-lg'>Vice President of Pre-Construction</h1>
         </div>
