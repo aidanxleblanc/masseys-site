@@ -1,10 +1,18 @@
 import React, { useState } from 'react';
+import Media from 'react-responsive'
+
 import Navbar from '../../components/Navbar';
+import MobileNavbar from '../../components/mobile/MobileNavbar';
+import MobileProjectTitle from '../../components/mobile/MobileProjectTitle';
+import PageTitle from '../../components/PageTitle';
+import Footer from '../../components/Footer';
+import MobileFooter from '../../components/mobile/MobileFooter';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import PageTitle from '../../components/PageTitle';
+
 import IndvProjectSquare from '../../components/IndvProjectSquare';
-import Footer from '../../components/Footer';
+
 
 import img1 from "./prjimg/22Liberty_1.jpeg";
 import img2 from "./prjimg/22Liberty_2.jpeg";
@@ -28,10 +36,22 @@ const Liberty22 = ({ url, name, city, state}) => {
   };
 
   return (
-    <div className='font-display text-navy justify-center'>
-      <Navbar color='navy' />
-      <PageTitle title={name} />
-      <div className='flex justify-center'>
+    <div className='flex flex-col justify-between items- font-display text-navy h-screen'>
+      <div>
+        <Media query="(max-width: 768px)">
+          {isMobile => (
+            isMobile ? <MobileNavbar /> : <Navbar color='navy' />
+          )}
+        </Media>
+        <Media query="(max-width: 768px)">
+        {isMobile => (
+          isMobile ? <MobileProjectTitle title={name}/> : <PageTitle title={name} />
+        )}
+      </Media>
+      </div>
+      <div className='flex flex-grow justify-center'>
+      <div className='flex flex-col justify-around min-h-full'>
+      <div className='flex justify-center max-w-full'>
         <div className='flex items-center justify-center p-5'>
             <button onClick={handlePrevImage}>
                 <FontAwesomeIcon icon={faChevronLeft} />
@@ -47,10 +67,6 @@ const Liberty22 = ({ url, name, city, state}) => {
         </div>
         </div>
       </div>
-      {/* <div className='flex justify-center p-6'>
-        <h1 className='font-thin text-2xl text-center w-2/3'>
-        </h1>
-      </div> */}
       <div className='flex mt-6'>
         <div className='w-1/2 text-right font-semi mr-1'>
           Location: <br />
@@ -60,6 +76,8 @@ const Liberty22 = ({ url, name, city, state}) => {
           Boston, Massachusetts <br />
           Residential <br />
         </div>
+      </div>
+      </div>
       </div>
         {/* <div className='font-semi text-3xl text-center pt-6'>
             <h1>More {state} Projects</h1>
@@ -82,10 +100,13 @@ const Liberty22 = ({ url, name, city, state}) => {
             <IndvProjectSquare imageUrl={require('../../images/fenwayphaseii.jpeg')}
             name="Fenway Center Phase II" loc='Boston, MA'/>
         </div> */}
-        <div className='mt-4'>
-            <Footer /> 
+        <div className='flex flex-col mt-4 justify-end'>
+            <Media query="(max-width: 768px)">
+            {isMobile => (
+              isMobile ? <MobileFooter /> : <Footer />
+            )}
+          </Media>
         </div>
-        
     </div>
   )
 }

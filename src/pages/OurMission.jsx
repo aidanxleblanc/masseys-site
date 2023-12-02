@@ -2,7 +2,7 @@ import React from 'react'
 import Media from 'react-responsive'
 
 import DesktopMission from '../components/DesktopMission'
-import ErrorPage from '../components/ErrorPage'
+import MobileMission from '../components/mobile/MobileMission'
 
 
 const OurMission = () => {
@@ -10,7 +10,7 @@ const OurMission = () => {
     <div>
       <Media query="(max-width: 768px)">
         {isMobile => (
-          isMobile ? <ErrorPage /> : <DesktopMission/>
+          isMobile ? <MobileMission /> : <DesktopMission/>
         )}
       </Media>
     </div>
