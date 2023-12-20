@@ -1,7 +1,7 @@
 import React from 'react'
 import Media from 'react-responsive'
 
-import DesktopCareers from '../components/DesktopCareers'
+import DesktopCareers from '../components/desktop/DesktopCareers'
 import MobileCareers from '../components/mobile/MobileCareers'
 
 const Careers = () => {

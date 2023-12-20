@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import Media from 'react-responsive'
 
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
+import Navbar from '../components/general/navbar/Navbar'
+import Footer from '../components/general/Footer'
 import MobileNavbar from '../components/mobile/MobileNavbar'
 import MobileFooter from '../components/mobile/MobileFooter'
 

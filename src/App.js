@@ -72,13 +72,14 @@ function App() {
             <Route path='*' element={<Home />}/>
             <Route path='/careers' element={<Careers />}/>
             <Route path='/contact' element={<Contact />}/>
-            <Route path='/featured' element={<Featured />}/>
+            <Route path='/featured-projects' element={<Featured />}/>
             <Route path='/home' element={<Home />}/>
             <Route path='/our-team' element={<MeetTheTeam />}/>
             <Route path='/our-story' element={<OurStory />}/>
             <Route path='/our-work' element={<OurWork />}/>
             <Route path='/our-mission' element={<OurMission />}/>
-            <Route path='/projects' element={<Projects />}/>
+            <Route path='/projects' element={<Featured />}/>
+            <Route path='/portfolio' element={<Projects />}/>
 
             <Route path='/105-west-1st-street' element={
               <West1st 

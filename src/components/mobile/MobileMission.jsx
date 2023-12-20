@@ -1,5 +1,5 @@
 import React from 'react'
-import TitleHeading from '../TitleHeading'
+// import TitleHeading from '../TitleHeading'
 import MobileNavbar from '../mobile/MobileNavbar'
 import MobilePageTitle from '../mobile/MobilePageTitle'
 import MobileFooter from '../mobile/MobileFooter'

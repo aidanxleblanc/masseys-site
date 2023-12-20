@@ -1,11 +1,11 @@
 import React from 'react'
 import Media from 'react-responsive'
 
-import Navbar from '../components/Navbar'
-import PageTitle from '../components/PageTitle'
-import Footer from '../components/Footer'
+import Navbar from '../components/general/navbar/Navbar'
+import PageTitle from '../components/general/PageTitle'
+import Footer from '../components/general/Footer'
 
-import DesktopProjects from '../components/DesktopProjects'
+import DesktopProjects from '../components/desktop/DesktopProjects'
 
 import MobileNavbar from '../components/mobile/MobileNavbar'
 import MobilePageTitle from '../components/mobile/MobilePageTitle'

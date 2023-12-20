@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import Navbar from '../../components/Navbar';
+import Navbar from '../../components/general/navbar/Navbar';
+import PageTitle from '../../components/general/PageTitle';
+import Footer from '../../components/general/Footer'
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
-import PageTitle from '../../components/PageTitle';
-import IndvProjectSquare from '../../components/IndvProjectSquare';
-import Footer from '../../components/Footer';
+
+// import IndvProjectSquare from '../../components/IndvProjectSquare';
+
 
 import img1 from "./prjimg/SSL_1.jpeg";
 import img2 from "./prjimg/SSL_2.jpeg";

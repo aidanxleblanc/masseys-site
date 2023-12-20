@@ -1,9 +1,9 @@
 import React from 'react';
 import Media from 'react-responsive';
 
-import Header from '../components/Header.jsx';
-import Body from '../components/Body.jsx';
-import Footer from '../components/Footer.jsx';
+import Header from '../components/pages/home/Header.jsx';
+import Body from '../components/pages/home/Body.jsx';
+import Footer from '../components/general/Footer.jsx';
 
 import MobileHeader from '../components/mobile/MobileHeader.jsx';
 import MobileMainDesc from '../components/mobile/MobileMainDesc.jsx';

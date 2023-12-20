@@ -1,7 +1,7 @@
 import React from 'react'
 import Media from 'react-responsive'
 
-import DesktopMission from '../components/DesktopMission'
+import DesktopMission from '../components/desktop/DesktopMission'
 import MobileMission from '../components/mobile/MobileMission'
 
 

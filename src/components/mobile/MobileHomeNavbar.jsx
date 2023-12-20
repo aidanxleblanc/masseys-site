@@ -1,5 +1,5 @@
 import React from 'react'
-import HomeLogo from '../HomeLogo';
+import HomeLogo from '../pages/home/HomeLogo';
 import MobileDropdown from './MobileDropdown';
 
 const HomeNavbar = ({absolute, color}) => {

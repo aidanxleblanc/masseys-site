@@ -1,11 +1,11 @@
 import React from 'react'
-import TitleHeading from '../TitleHeading'
-import CrewBanner from '../CrewBanner'
-import MobileNavbar from './MobileNavbar'
-import PositionBannerRight from '../PositionBannerRight'
-import PositionBannerLeft from '../PositionBannerLeft'
-import PositionBanner2 from '../PositionBanner2'
-import Footer from './MobileFooter'
+// import TitleHeading from '../TitleHeading'
+// import CrewBanner from '../CrewBanner'
+import MobileNavbar from '../mobile/MobileNavbar'
+// import PositionBannerRight from '../PositionBannerRight'
+// import PositionBannerLeft from '../PositionBannerLeft'
+// import PositionBanner2 from '../PositionBanner2'
+import Footer from '../mobile/MobileFooter'
 import PageTitle from '../mobile/MobilePageTitle'
 
 const MobileCareers = () => {
