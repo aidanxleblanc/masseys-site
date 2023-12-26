@@ -66,7 +66,7 @@ const MobileTimeline = () => {
                 <div class='text-2xl pt-3 font-semi'>Branford, CT</div>
             </div>
             <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
-                <img src={require('../compimgs/mohegan.jpeg')} class='w-full h-full object-cover'/>
+                <img src={require('../../images/mohegan_sun_new.png')} class='w-full h-full object-cover'/>
             </div>
         </div>
         <div className='text-center p-4'>

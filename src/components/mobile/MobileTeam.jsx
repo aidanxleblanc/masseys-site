@@ -53,7 +53,7 @@ const MobileTeam = () => {
         <div className='flex flex-col rounded-full overflow-hidden'>
             <img src={require("../compimgs/vailettenew.jpg")} />
         </div>
-        <div className='font-display text-navy '>
+        <div className='font-display text-navy mt-4'>
             <h1 className='text-center font-bold text-xl'>Chris Vailette Jr.</h1>
             <h1 className='text-center text-lg'>Vice President of Pre-Construction</h1>
         </div>
