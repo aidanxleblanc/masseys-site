@@ -3,10 +3,33 @@ import React from 'react'
 const MobileFeatured = () => {
   return (
     <div>
-        <div className='image-container px-4'>
+        <div className='image-container px-4 pt-8'>
+            <img src={require("../../images/ragon.png")} 
+            className='w-full h-full'/> 
+        </div>
+        <div className='flex flex-col justify-center text-navy p-4 text-center pb-8'>
+                    <h1 className='font-semi text-3xl'>Ragon Institute 2.0</h1>
+                    <h2 className='font-semi text-lg pt-2'>
+                    Mass General/MIT/Harvard
+                    <br />
+                        Architect: <span className='font-regular'>Payette</span> <br />
+                        Contractor: <span className='font-regular'>Consigli</span> <br /> 
+                    </h2>
+                    <p className='whitespace-normal pt-4'>
+                    Scheduled for completion in Winter 2023-2024, the Ragon will be used for research
+                     of infectious diseases. The façade consists of unitized curtain wall system composed
+                      of glass and formed vertical metal panel fins. Podium includes wood curtain wall, 
+                      aluminum doors, glass doors and revolving doors.
+                    </p>
+        </div>
+
+        <div className="border-t border-sky-950 w-full"></div>
+
+        <div className='image-container px-4 pt-8'>
             <img src={require("../../images/888boylstonshot.png")} 
             className='w-full h-full'/> 
         </div>
+
         <div className='flex flex-col justify-center text-navy p-4 text-center '>
                     <h1 className='font-semi text-3xl'>888 Boylston Street</h1>
                     <h2 className='font-semi text-lg pt-2'>
@@ -44,28 +67,6 @@ const MobileFeatured = () => {
                         spaces and top of the line finishes. Building amenities include a 24 hour
                         concierge, state of the art gym, residence lounge, private dining, 
                         underground parking and exclusive, landscaped outdoor spaces
-                    </p>
-        </div>
-
-        <div className="border-t border-sky-950 w-full"></div>
-
-        <div className='image-container px-4 pt-8'>
-            <img src={require("../../images/ragon.png")} 
-            className='w-full h-full'/> 
-        </div>
-        <div className='flex flex-col justify-center text-navy p-4 text-center pb-8'>
-                    <h1 className='font-semi text-3xl'>Ragon Institute 2.0</h1>
-                    <h2 className='font-semi text-lg pt-2'>
-                    Mass General/MIT/Harvard
-                    <br />
-                        Architect: <span className='font-regular'>Payette</span> <br />
-                        Contractor: <span className='font-regular'>Consigli</span> <br /> 
-                    </h2>
-                    <p className='whitespace-normal pt-4'>
-                    Scheduled for completion in Winter 2023-2024, the Ragon will be used for research
-                     of infectious diseases. The façade consists of unitized curtain wall system composed
-                      of glass and formed vertical metal panel fins. Podium includes wood curtain wall, 
-                      aluminum doors, glass doors and revolving doors.
                     </p>
         </div>
 

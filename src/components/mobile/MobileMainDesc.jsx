@@ -4,8 +4,11 @@ const MobileMainDesc = () => {
   return (
     <div className='flex flex-col items-center'>
       <div className='inset-5 pt-6 px-4'>
-            <img src={require('../../images/101college.jpeg')}/> 
+            <img src={require('../../images/massmutual_home.jpg')}/> 
           </div>
+          <div className='w-1/3 pt-4 items-center'>
+            <img src={require('../../images/50yrs.png')}/> 
+        </div>
     <h1 className='font-display relative text-center text-xl p-6 text-navy'>Since 1973, Massey’s has provided architectural glass 
               and aluminum products, specialized craftsmanship and 
               glazing project management to a long list of the nation’s 
@@ -28,9 +31,7 @@ const MobileMainDesc = () => {
               <br></br>
               We are proud of our past and confident of our future. You 
               can build on our experience and build with confidence.</h1>
-      <div className='w-1/3 pb-6 items-center'>
-            <img src={require('../../images/50yrs.png')}/> 
-        </div>
+      
     </div>
   )
 }

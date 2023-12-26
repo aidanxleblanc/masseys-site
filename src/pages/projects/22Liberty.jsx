@@ -17,7 +17,7 @@ import img3 from "./prjimg/22Liberty_3.jpeg";
 
 const images = [img1, img2, img3];
 
-const Liberty22 = ({ imgs, name, city, state, type}) => {
+const Project = ({ imgs, name, city, state, type}) => {
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -78,4 +78,4 @@ const Liberty22 = ({ imgs, name, city, state, type}) => {
   )
 }
 
-export default Liberty22
+export default Project

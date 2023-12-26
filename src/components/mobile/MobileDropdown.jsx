@@ -39,12 +39,13 @@ const MobileDropdown = () => {
             X
           </button>
           <ul className="menu-list text-center">
-            <div className='p-2'>
-              <li><a href="/projects">Projects</a></li>
+          <div className='p-2'>
+              <li><a href="/projects">Featured</a></li>
             </div>
             <div className='p-2'>
-              <li><a href="/featured">Featured Projects</a></li>
+              <li><a href="/portfolio">Portfolio</a></li>
             </div>
+            
             <div className='p-2'>
               <li><a href="/our-story">Our Story</a></li>
             </div>

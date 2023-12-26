@@ -11,7 +11,7 @@ import MobileFooter from '../../components/mobile/MobileFooter';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faChevronLeft, faChevronRight } from "@fortawesome/free-solid-svg-icons";
 
-import IndvProjectSquare from '../../components/IndvProjectSquare';
+// import IndvProjectSquare from '../../components/IndvProjectSquare';
 
 import img1 from "./prjimg/22Liberty_1.jpeg";
 import img2 from "./prjimg/22Liberty_2.jpeg";
@@ -19,7 +19,7 @@ import img3 from "./prjimg/22Liberty_3.jpeg";
 
 const images = [img1, img2, img3];
 
-const Project = ({ images, name, city, state, }) => {
+const Project = ({ imgs, name, city, state, type}) => {
   // Create a state variable to keep track of the currently displayed image index
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
@@ -71,8 +71,8 @@ const Project = ({ images, name, city, state, }) => {
           Type: <br />
         </div>
         <div className='w-1/2 text-left ml-1'>
-          Boston, Massachusetts <br />
-          Residential <br />
+          {city}, {state} <br />
+          {type} <br />
         </div>
       </div>
       </div>
