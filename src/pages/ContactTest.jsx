@@ -49,7 +49,7 @@ const Contact = () => {
           isMobile ? <MobileNavbar /> : <Navbar absolute={false} color='navy' />
         )}
       </Media>
-    <div className="max-w-md mx-auto flex flex-col p-4 font-display">
+    {/* <div className="max-w-md mx-auto flex flex-col p-4 font-display">
       <h2 className="text-2xl font-bold text-center text-navy mb-4">Contact Us</h2>
       <form onSubmit={handleSubmit}>
         <div className="mb-4">
@@ -127,7 +127,35 @@ const Contact = () => {
         <br />
         <br />
       </div>
-    </div>
+    </div> */}
+    <div className='flex flex-col justify-center items-center font-display font-bold text-navy h-3/4'>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+            <img src={require('../images/50yrs.png')} 
+                className='w-1/5 object-contain'/>
+            <div className='text-center'>
+                <br />
+                <div className='font-regular text-2xl'>
+              If you would like to contact us, please email <a href="mailto:hr@masseysglass.com">
+          <span className='font-bold underline'> hr@masseysglass.com </span>
+          </a>
+            </div>
+            <br />
+                This page is under construction! 
+                <br />
+                Please come back later.
+            </div>
+            
+        </div>
+        <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
     <Media query="(max-width: 768px)">
         {isMobile => (
           isMobile ? <MobileFooter /> : <Footer />

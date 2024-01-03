@@ -1,5 +1,6 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CSSTransition, TransitionGroup } from 'react-transition-group';
 import Media from 'react-responsive';
 import Home from "./pages/Home";
 import Projects from "./pages/Projects";
@@ -62,11 +63,11 @@ import Peabody from './pages/projects/YalePeabody';
 import Smilow from './pages/projects/YaleSmilow';
 
 
-
 function App() { 
   return (
       <div>
         <BrowserRouter>
+          <TransitionGroup></TransitionGroup>
           <Routes>
             <Route index element={<Home />}/>
             <Route path='*' element={<Home />}/>
