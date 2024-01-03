@@ -4,27 +4,27 @@ import React from 'react'
 const Footer = () => {
   return (
     <div className='flex flex-col items-center justify-center bg-dknavy p-2 text-sm text-center'>
-      <div className='flex justify-center'>
-        <div className='flex text-white justify-between items-center text-xs/6 pt-2 space-x-1'>
+      <div className='flex justify-around'>
+        <div className='flex text-white justify-around items-center text-xs/6 pt-2 space-x-4'>
           <div className='font-display'>
             <span className='font-bold'>Headquarters <br /></span>
-            734 East Main Street <br />
+            734 E Main St <br />
             Branford, CT
           </div>
           <div className='font-display'>
-            <span className='font-bold'>Office Locations <br /></span>
+            <span className='font-bold'>Shop <br /></span>
+            9 Baldwin Dr <br />
+            Branford, CT
+          </div>
+          <div className='font-display'>
+            <span className='font-bold'>Franklin Office <br /></span>
+            254 E Central St<br />
             Franklin, MA <br />
-            Providence, RI <br />
           </div>
           <div className='font-display'>
             <span className='font-bold'>Contact Us <br /></span>
             203-488-2377 <br />
             203-488-6381 <br />
-          </div>
-          <div className='font-display'>
-            <span className='font-bold'>Join our team <br /></span>
-            <a href="/careers">Careers <br /></a>
-            <br />
           </div>
         </div>
       </div>

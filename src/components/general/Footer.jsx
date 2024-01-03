@@ -8,16 +8,21 @@ const Footer = () => {
         <div className='flex items-center p-3 w-1/17'>
           <Logo />
         </div>
-        <div className='flex w-1/2 text-white justify-between items-center'>
+        <div className='flex text-white items-center space-x-6'>
           <div className='font-display'>
             <span className='font-bold'>Headquarters <br /></span>
             734 East Main Street <br />
             Branford, CT
           </div>
           <div className='font-display'>
-            <span className='font-bold'>Office Locations <br /></span>
+            <span className='font-bold'>Shop <br /></span>
+            9 Baldwin Drive <br />
+            Branford, CT
+          </div>
+          <div className='font-display'>
+            <span className='font-bold'>Franklin Office <br /></span>
+            254 East Central Street <br />
             Franklin, MA <br />
-            Providence, RI <br />
           </div>
           <div className='font-display'>
             <span className='font-bold'>Contact Us <br /></span>

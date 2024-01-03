@@ -139,14 +139,15 @@ const Contact = () => {
             <div className='text-center'>
                 <br />
                 <div className='font-regular text-2xl'>
+                  <br />
               If you would like to contact us, please email <a href="mailto:hr@masseysglass.com">
           <span className='font-bold underline'> hr@masseysglass.com </span>
           </a>
             </div>
-            <br />
+            {/* <br />
                 This page is under construction! 
                 <br />
-                Please come back later.
+                Please come back later. */}
             </div>
             
         </div>
