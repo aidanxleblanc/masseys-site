@@ -2,7 +2,7 @@ import React from 'react'
 
 const MainDesc = () => {
   return (
-    <div className='flex flex-col pt-4 pb-10 items-center justify-center space-y-2 font-display text-[#39516D]'>
+    <div className='flex flex-col pt-4 pb-10 items-center justify-center space-y-1 font-display text-[#39516D]'>
         <img src={require('../../../images/50yrs.png')}
               className='w-1/4 object-contain'/>
         <h1 className='pt-8 text-4xl text-right'>Build on our experience.</h1>

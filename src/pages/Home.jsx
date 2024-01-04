@@ -11,26 +11,28 @@ import MobileFooter from '../components/mobile/MobileFooter.jsx';
 
 const HomePage = () => {
   return (
-    <div className='min-h-screen min-w-screen'>
-      <div>
+    <div className='flex flex-col min-h-screen min-w-screen'>
+      <div className=''>
       <Media query="(max-width: 768px)">
         {isMobile => (
           isMobile ? <MobileHeader /> : <Header />
         )}
       </Media>
       </div>
-      <div>
+      <div className=''>
       <Media query="(max-width: 768px)">
         {isMobile => (
           isMobile ? <MobileMainDesc /> : <Body />
         )}
       </Media>
       </div>
+      <div className="">
       <Media query="(max-width: 768px)">
         {isMobile => (
           isMobile ? <MobileFooter /> : <Footer />
         )}
       </Media>
+      </div>
     </div>
   );
 }
