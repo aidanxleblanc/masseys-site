@@ -13,9 +13,8 @@ const Header = () => {
           <div className="text-center items-center font-display font-semi"
             style={{opacity: 0, animation:'fadeInFromLeft 1s ease-in forwards'}}>
                 <h1 className=" px-10 text-3xl font-bold text-white">
-                Transforming <span className='text-gold'>architectural <br /> vision </span> 
-                  into the future <br />
-                  of <span className='text-gold'>eco-sustainable <br /></span>
+                Transforming <span className='text-gold'>architectural vision </span> 
+                  into <span className='text-gold'>eco-sustainable <br /></span>
                   building facades.</h1>
           </div>
           <div className='inset-5 pt-6 px-4'>
