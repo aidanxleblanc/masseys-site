@@ -8,13 +8,13 @@ const Body = () => {
   return (
     <div>
       <div className='flex items-center'>
-        <div className='flex flex-col w-1/2 p-8 space-y-8 pr-0'>
+        <div className='flex flex-col w-1/2 h-auto p-8 '>
           <img src={require('../../../images/mohegan_sun_new.png')} 
           className=''/>
           <img src={require('../../../images/massmutual_home.jpg')} 
           className=''/>
         </div>
-        <div className='w-1/2 pl-8 pr-8 pt-8 items-centerr'>
+        <div className='flex w-1/2 h-full items-center'>
           <MainDesc />
         </div>
       </div>
