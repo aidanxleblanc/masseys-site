@@ -8,7 +8,7 @@ const MobileTimeline = () => {
 
         {/* 1973 */}
         <div className='flex justify-center space-x-4 pt-6'>
-            <div className='flex flex-col rounded-lg aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/masseysr.jpg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -28,7 +28,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>1978</div>
                 <div class='text-2xl pt-3 font-semi'>Branford, CT</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/masseystruck.jpeg')} class='w-full h-full object-cover'/>
             </div>
         </div>
@@ -44,7 +44,7 @@ const MobileTimeline = () => {
 
         {/* 1989 */}
         <div className='flex justify-center space-x-4 pt-8'>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/onecentury.jpg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -65,7 +65,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>1991</div>
                 <div class='text-2xl pt-3 font-semi'>Branford, CT</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../../images/mohegan_sun_new.png')} class='w-full h-full object-cover'/>
             </div>
         </div>
@@ -80,7 +80,7 @@ const MobileTimeline = () => {
 
         {/* 1998 */}
         <div className='flex justify-center space-x-4 pt-8'>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/prov.jpeg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -100,7 +100,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>2006</div>
                 <div class='text-2xl pt-3 font-semi'>Branford, CT</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/uam.jpeg')} class='w-full h-full object-cover'/>
             </div>
         </div>
@@ -114,7 +114,7 @@ const MobileTimeline = () => {
 
         {/* 2008 */}
         <div className='flex justify-center space-x-4 pt-8'>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/aps.jpeg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -135,7 +135,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>2010</div>
                 <div class='text-2xl pt-3 font-semi'>Branford, CT</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/menino.jpeg')} class='w-full h-full object-cover'/>
             </div>
         </div>
@@ -150,7 +150,7 @@ const MobileTimeline = () => {
 
         {/* 2012 */}
         <div className='flex justify-center space-x-4 pt-8'>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../../images/foxborough.png')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -170,7 +170,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>2014</div>
                 <div class='text-2xl pt-3 font-semi'>Boston, MA</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/88seaport.jpeg')} class='w-full h-full object-cover'/>
             </div>
         </div>
@@ -185,7 +185,7 @@ const MobileTimeline = () => {
 
         {/* 2016 */}
         <div className='flex justify-center space-x-4 pt-8'>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/fabbrica.jpeg')} class='w-full h-full object-cover'/>
             </div>
             <div className='flex flex-col items-center justify-center'>
@@ -207,7 +207,7 @@ const MobileTimeline = () => {
                 <div class='text-5xl font-bold'>2023</div>
                 <div class='text-2xl pt-3 font-semi'>Franklin, MA</div>
             </div>
-            <div className='flex flex-col rounded-full aspect-square overflow-hidden w-2/5'>
+            <div className='flex flex-col rounded-xl aspect-square overflow-hidden w-2/5'>
                 <img src={require('../compimgs/50yrs.png')} class='w-full h-full object-cover'/>
             </div>
         </div>
